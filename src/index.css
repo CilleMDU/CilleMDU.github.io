@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --color-blue-background: #A8C6E7;
+  --color-dark-blue: #7FA8D6;
+  --color-yellow-background: #FFF2B2;
+  --color-dark-yellow: #FFE08A;
+  --color-light-yellow: #FFF7D6;
+  --color-text: #2C2C2C;
+  --color-white: #FFFFFF;
+
+  /* Font sizes */
+  --title-font-size: 3.2rem;
+  --secondary-title-font-size: 2.8rem;
+  --text-title-font-size: 1.8rem;
+  --small-text-title-font-size: 1.8rem;
+  --text-font-size: 1.6rem;
+  --small-text-font-size: 1.4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
