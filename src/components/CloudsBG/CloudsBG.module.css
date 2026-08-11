@@ -1,0 +1,57 @@
+.cloudsBG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.pageHighlight {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 100vh;
+  background-color: var(--color-yellow-background);
+  z-index: 0;
+}
+
+.clouds {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.cloudWrap {
+  position: absolute;
+  left: 0;
+}
+
+.cloud {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation-name: cloud-drift;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* travels from fully off-screen left to fully off-screen right, so it enters/exits cleanly */
+@keyframes cloud-drift {
+  from {
+    transform: translateX(calc(-100% - 5vw));
+  }
+  to {
+    transform: translateX(calc(100vw + 5vw));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cloud {
+    animation: none;
+  }
+}

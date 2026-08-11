@@ -1,16 +1,18 @@
 import { Route, Routes } from "react-router";
-import Navbar from "./components/Navbar";
+import CloudsBG from "./components/CloudsBG/CloudsBG";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ProjectPage from "./pages/ProjectPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
       <Navbar />
+      <CloudsBG />
 
       <main>
         <Routes>

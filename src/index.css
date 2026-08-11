@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   /* Colors */
   --color-blue-background: #A8C6E7;
@@ -9,14 +15,45 @@
   --color-white: #FFFFFF;
 
   /* Font sizes */
-  --title-font-size: 3.2rem;
+  --title-font-size: 4rem;
   --secondary-title-font-size: 2.8rem;
   --text-title-font-size: 1.8rem;
   --small-text-title-font-size: 1.8rem;
   --text-font-size: 1.6rem;
   --small-text-font-size: 1.4rem;
+
+  /* Font families */
+  --font-family-alice: 'Alice', serif;
+  --font-family-playpen-sans: 'Playpen Sans', sans-serif;
+
+  /* font weights */
+  --medium-font-weight: 500;
+  --light-font-weight: 300;
+  --bold-font-weight: 700;
+  --semi-bold-font-weight: 600;
+
+  /* clouds */
+  --bg-cloud-big: url('./img/clouds/bgClouds/bg-cloud-big.svg');
+  --bg-cloud-small: url('./img/clouds/bgClouds/bg-cloud-small.svg');
+  --bg-cloud-medium: url('./img/clouds/bgClouds/bg-cloud-med.svg');
 }
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: var(--font-family-playpen-sans);
+  font-size: var(--text-font-size);
+  color: var(--color-text);
+  background-color: var(--color-blue-background);
+  overflow-x: hidden;
+}
+
+.site-header,
+main {
+  position: relative;
+  z-index: 1;
 }

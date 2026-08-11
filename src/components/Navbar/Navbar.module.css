@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  }
+
+.headerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem;
+  background-color: var(--color-dark-blue);
+}
+
+.headerLogo img {
+  height: 12rem;
+  width: auto;
+  cursor: pointer;
+}
+
+.headerName {
+  font-family: var(--font-family-alice);
+  font-size: var(--title-font-size);
+  margin-left: 1.6rem;
+}
+
+.headerIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.darkMode img,
+.contact img,
+.languages img {
+  height: 4rem;
+  width: auto;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.6rem;
+  max-width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navLink img {
+  cursor: pointer;
+  position: relative;
+  top: -2rem;
+}
