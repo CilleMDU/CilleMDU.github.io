@@ -82,12 +82,12 @@ export default function Navbar() {
                     <img src={getLinkImage('bts', '/bts', BTS, BTSActive)} alt="BTS page" className={styles.bts}/>
                 </NavLink>
                 <NavLink 
-                    to="/about me" 
+                    to="/about" 
                     className={styles.navLink}
                     onMouseEnter={() => setHoveredLink('about')}
                     onMouseLeave={() => setHoveredLink(null)}
                 >
-                    <img src={getLinkImage('about', '/about me', About, AboutActive)} alt="About page" className={styles.about}/>
+                    <img src={getLinkImage('about', '/about', About, AboutActive)} alt="About page" className={styles.about}/>
                 </NavLink>
                 <NavLink 
                     to="/contact" 
