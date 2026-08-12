@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router";
 import CloudsBG from "./components/CloudsBG/CloudsBG";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ProjectPage from "./pages/ProjectPage";
 import ProjectsPage from "./pages/ProjectsPage";

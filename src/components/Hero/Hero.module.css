@@ -1,8 +1,10 @@
 .heroContent img{
-    width: 100%;
+    width: calc(100% + 3.2rem);
     height: auto;
     z-index: 10;
-    position: absolute;
-    top: 10vh;
-    left: 0;
+    position: relative;
+    left: -1.6rem;
+    top: -14rem;
+    /* top:-14rem reserves 14rem of empty space below; cancel most of it so only 2.4rem of gap remains */
+    margin-bottom: -11.6rem;
 }

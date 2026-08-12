@@ -10,29 +10,30 @@
   display: flex;
   flex-direction: row;
   width: max-content;
-  animation: scroll-right 40s linear infinite;
+  animation: scroll-right 70s linear infinite;
 }
 
 .carouselItem {
   flex: 0 0 auto;
-  width: 30rem;
+  height: 24rem;
+  width: 40rem;
   margin: 0 1.6rem;
   padding: 2rem;
   background-color: var(--color-dark-blue);
   border-radius: 20px;
-  color: var(--color-white);
+  font-size: var(--small-text-font-size);
 }
 
-.reviewText {
-  margin-bottom: 0.8rem;
+.reviewText,
+.reviewTitle {
+    margin-bottom: 1.2rem;
 }
 
-.reviewText:last-child {
-  margin-bottom: 0;
+.reviewTitle {
+    font-size: var(--small-text-title-font-size);
+    font-weight: var(--semi-bold-font-weight);
 }
 
-/* Container is duplicated (two identical halves), so shifting by exactly
-   half its width loops seamlessly and appears to enter/exit at the edges */
 @keyframes scroll-right {
   from {
     transform: translateX(-50%);

@@ -35,9 +35,9 @@ export default function Carousel() {
                         className={styles.carouselItem}
                         aria-hidden={index >= shuffledReviews.length}
                     >
-                        <p className={styles.reviewText}>{review.question}</p>
-                        <p className={styles.reviewText}>{review.answer}</p>
-                        <p className={styles.reviewText}>{review.relationship}</p>
+                        <p className={styles.reviewTitle}>{review.question}</p>
+                        <p className={styles.reviewText}>"{review.answer}"</p>
+                        <p className={styles.reviewText}>- {review.relationship}</p>
                     </div>
                 ))}
             </div>
