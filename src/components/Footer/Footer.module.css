@@ -1,7 +1,7 @@
-footer {
+.footer {
+    position: relative;
     background-color: var(--color-dark-blue);
-    bottom: 0;
-    left: 0;
     width: 100%;
-    z-index: 2;
+    padding: 2rem 0;
+    z-index: 20;
 }

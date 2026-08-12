@@ -1,0 +1,49 @@
+.carousel {
+  position: relative;
+  /* Cancel out main's 1.6rem padding so the clipped edges align with the yellow rectangle's sides */
+  width: calc(100% + 3.2rem);
+  margin: 0 -1.6rem;
+  overflow: hidden;
+}
+
+.carouselContainer {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  animation: scroll-right 40s linear infinite;
+}
+
+.carouselItem {
+  flex: 0 0 auto;
+  width: 30rem;
+  margin: 0 1.6rem;
+  padding: 2rem;
+  background-color: var(--color-dark-blue);
+  border-radius: 20px;
+  color: var(--color-white);
+}
+
+.reviewText {
+  margin-bottom: 0.8rem;
+}
+
+.reviewText:last-child {
+  margin-bottom: 0;
+}
+
+/* Container is duplicated (two identical halves), so shifting by exactly
+   half its width loops seamlessly and appears to enter/exit at the edges */
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carouselContainer {
+    animation: none;
+  }
+}

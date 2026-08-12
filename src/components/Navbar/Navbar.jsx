@@ -1,5 +1,5 @@
 import styles from './Navbar.module.css';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Logo from '../../img/logo.svg';
 import Night from '../../img/header/night.svg';
 import Contact from '../../img/header/contact.svg';
@@ -19,6 +19,25 @@ import ContactCloudActive from '../../img/clouds/navbarClouds/active/contactClou
 export default function Navbar() {
     const [hoveredLink, setHoveredLink] = useState(null);
     const location = useLocation();
+    const headerRef = useRef(null);
+
+    // header is position:fixed (out of flow), so expose its real height as a CSS
+    // variable that main uses to avoid content starting underneath it
+    useEffect(() => {
+        const header = headerRef.current;
+        if (!header) return;
+
+        const updateHeight = () => {
+            document.documentElement.style.setProperty('--navbar-height', `${header.offsetHeight}px`);
+        };
+
+        updateHeight();
+
+        const observer = new ResizeObserver(updateHeight);
+        observer.observe(header);
+
+        return () => observer.disconnect();
+    }, []);
 
     const handleHomeClick = () => {
         window.location.href = '/';
@@ -33,7 +52,7 @@ export default function Navbar() {
     }
 
     return (
-        <header className={styles.header}>
+        <header className={styles.header} ref={headerRef}>
             <div className={styles.headerBackground}>
                 <div className={styles.headerFlex}>
                 <div className={styles.headerLogo}>

@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "language": "English",
+        "relationship": "Former group member",
+        "question": "How was it to work with Cecilie??",
+        "answer": [
+            "Nice",
+            "You could always count on work getting done because she wanted to be part of everything and even did extra work at home. She's very dedicated and stays very focused on her own when the work isn't going according to plan.",
+            "It was a short affaire partly because Cecilie was effective and great at what she was doing.",
+            "Hygegligt, funny and bit intense, but only because she wants this so much, then you work good and hard."
+
+        ]
+    },
+    {
+        "id": 2,
+        "language": "English",
+        "relationship": "Former group member",
+        "question": "What was Cecilie good at?",
+        "answer": [
+            "Programming.",
+            "She's good at working goal oriented and has a certain stubborness when it comes to getting things done. She was also in general good at chiming in on a variet amount of tasks. She was, for example, good at programming and prototyping",
+            "Programming, meeting up for meetings and always being on time, active in getting into contact with group members, even though they were from a different country.",
+            "Definitely the coding parts, availability and usabilty testing."
+        ]
+    },
+    {
+        "id": 3,
+        "language": "English",
+        "relationship": "Classmate",
+        "question": "Describe Cecilie in three words.",
+        "answer": [
+            "Wonderful, funny, helpful",
+            "Dedicated, effetion, broad knowledge",
+            "Approachable, nerdy (in a good way!) and efficient.",
+            "Energetic, goofy and sweet"
+        ]
+    },
+    {
+        "id": 4,
+        "language": "English",
+        "relationship": "Familymember",
+        "question": "How would you describe Cecilie?",
+        "answer": [
+            "A quite dutiful and thorough young woman who would go far to have everyone reach the goal with the tasks.",
+            "Cecilie is one of the most dedicated people I've ever met. When she cares about something, then there is nothing that can stand in her way. She researches things till the bottom and never does anything without having tought it through with lots of consideration and reason. She is intelligent, wellspoken and super easy to be around. Generally, she's just completely awesome.",
+            "Helpful, big hearted, willful, brave, creative."
+        ]
+    },
+    {
+        "id": 5,
+        "language": "English",
+        "relationship": "Familymember",
+        "question": "How would you descrive Cecilie's beheavior in front of others?",
+        "answer": [
+            "I experience Cecilie as someone who is an open and curious person, who invites others into her network, if they want to. If you repeatedly step on her toes, you lose her friendship and trust completely.",
+            "She's good at looking after other people's needs first so if you need something, she would gladly go out of her to get it done. She cares a lot about making other people feel safe and she's quick to observe if a person isn't feeling well."
+        ]
+    },
+    {
+        "id": 6,
+        "language": "English",
+        "relationship": "Familymember",
+        "question": "How would would you describe Cecilie in relation to workplaces, tasks and or areas of responsibility?",
+        "answer": [
+            "Cecilie will give her right arm for a workplace that shows her respect and gives her space when it comes to her challenges. She completes her tasks 112% and gladly takes on areas of responsibility.",
+            "She's super responsible and doesn't do anything halfheartedly. She's thoughtful and creative and always coming up with good solutions."
+        ]
+    },
+    {
+        "id": 7,
+        "language": "English",
+        "relationship": "Familymember",
+        "question": "How has Cecilie been during her time as a student?",
+        "answer": [
+            "Cecilie has been dutiful and done a heroic effort to complete all her tasks. Once in a while she can get too challenged and that can result in a couple of days of intense migraine. When she's back on her feet, she is ready and back to it with determination.",
+            "Cecilie is a responsible student who puts great pride in doing her work properly."
+        ]
+    },
+    {
+        "id": 8,
+        "language": "English",
+        "relationship": "Familymember",
+        "question": "How is Cecilie as a person of responsibility/person in charge?",
+        "answer": [
+            "You can trust 100% on Cecilie, if you make an agreement with her.",
+            "Cecilie is great at taking care of others. That includes other's things and their children. She babysits, for example, her niece with understanding, smile and surplus. Even if she's tired."
+        ]
+    },
+    {
+        "id": 9,
+        "language": "English",
+        "relationship": "Familymember",
+        "question": "What do you think is Cecilie's greatest strength?",
+        "answer": [
+            "I think that Cecilie's strengths are her propriety, thoroughness and good mood.",
+            "Her dedication and passion for the things she does. Her empathy and kindness.",
+            "Her head."
+        ]
+    },
+    {
+        "id": 10,
+        "language": "English",
+        "relationship": "Familymember",
+        "question": "Describe Cecilie in three words.",
+        "answer": [
+            "Proper, thorough, and happy.",
+            "Dedicated, responsible, empathetic.",
+            "Brave, helpful, creative."
+        ]
+    },
+    {
+        "id": 11,
+        "language": "English",
+        "relationship": "Friend",
+        "question": "What's it like to be friends with Cecilie?",
+        "answer": [
+            "Chaotic, but a bite more like lighthearted comedy. I always get energy when I'm with her.",
+            "Calming in a time where I (the friend) was not in a good spot. She makes you feel welcome, no matter who or what you are.",
+            "Awesome.",
+            "It has been an adventure. I have tried, and learned, a lot of new things through her, and I am deeply grateful to her for that.",
+            "Very nice and fun. She's very energetic and fun to be around."
+        ]
+    },
+    {
+        "id":12,
+        "language": "English",
+        "relationship": "Friend",
+        "question": "What is her best quality as a friend?",
+        "answer": [
+            "Her honesty. I always know she's being truthful with me.",
+            "Taking initiative.",
+            "Her kindness and her ability to listen to whatever you have on your mind.",
+            "She's very encouraging and skilled at communication. I get braver when in her company, and her energy is infectious in the best possible way.",
+            "I'd say how caring and giving she is. She's very passionate and always likes to help out and assist wherever she can."
+        ]
+    },
+    {
+        "id": 13,
+        "language": "English",
+        "relationship": "Friend",
+        "question": "Why should we hire her?",
+        "answer": [
+            "She is hardworking and dependable. I'd like to think a project is safe with her when she is assigned it. That was how it was at school.",
+            "Full of energy and not scared to make the first move, she's a born leader. With her on the team, you can be sure that coworkers will more likely be inspired to work with her.",
+            "She's very kind and a hard worker who never settles for anything less than perfection and she's not afraid to speak her mind about whatever or whoever is bothering her.",
+            "As previously stated, Cecilie is very competent at communicating, and her positive energy and go getter attitude are both infectious and admirable. She is also very dedicated and thorough in everything that she does and makes, and if there's anyone you can trust to keep her facts straight and precise, it's her.",
+            "She's very detailoriented, passionate and energetic. She's not afraid to say her opinion and works very hard on any project she's a part of."
+        ]
+    },
+    {
+        "id": 14,
+        "language": "English",
+        "relationship": "Friend",
+        "question": "Describe Cecilie in three words.",
+        "answer": [
+            "Determined, energetic, mediating.",
+            "Compassionate, energetic, kind.",
+            "Kind, funny, and smart.",
+            "Encouraging, direct and creative.",
+            "Energetic, passionate and creative."
+        ]
+    }
+]

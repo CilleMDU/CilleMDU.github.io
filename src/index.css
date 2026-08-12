@@ -52,8 +52,16 @@ body {
   overflow-x: hidden;
 }
 
+
 .site-header,
 main {
   position: relative;
   z-index: 1;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.6rem;
+  padding-top: var(--navbar-height, 0px);
 }

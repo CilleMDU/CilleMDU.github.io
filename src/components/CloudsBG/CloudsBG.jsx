@@ -45,14 +45,27 @@ export default function CloudsBG() {
     const [pageHeight, setPageHeight] = useState(0);
 
     // re-measure the document height whenever page content changes length, so the
-    // scattered-cloud pattern keeps tiling all the way down no matter the page/route
+    // scattered-cloud pattern keeps tiling all the way down no matter the page/route.
+    // Measures the actual content (main + footer) rather than document.body: the clouds
+    // layer itself is position:absolute, so measuring body would include its own height
+    // and inflate forever in a feedback loop.
     useEffect(() => {
-        const updateHeight = () => setPageHeight(document.documentElement.scrollHeight);
+        const updateHeight = () => {
+            const bottomEl = document.querySelector('footer') ?? document.querySelector('main');
+            const contentBottom = bottomEl
+                ? bottomEl.getBoundingClientRect().bottom + window.scrollY
+                : 0;
+
+            setPageHeight(Math.max(contentBottom, window.innerHeight));
+        };
 
         updateHeight();
 
         const observer = new ResizeObserver(updateHeight);
-        observer.observe(document.body);
+        const main = document.querySelector('main');
+        const footer = document.querySelector('footer');
+        if (main) observer.observe(main);
+        if (footer) observer.observe(footer);
         window.addEventListener('resize', updateHeight);
 
         return () => {
@@ -61,12 +74,15 @@ export default function CloudsBG() {
         };
     }, []);
 
+    // number of pattern repeats needed to cover pageHeight; the container itself is
+    // clipped to the exact pageHeight (via overflow: hidden) so a partial trailing
+    // tile doesn't add extra empty scrollable space beyond the real content
     const tileCount = Math.max(1, Math.ceil(pageHeight / TILE_HEIGHT));
 
     return (
         <div className={styles.cloudsBG}>
             <div className={styles.pageHighlight}></div>
-            <div className={styles.clouds} style={{ height: tileCount * TILE_HEIGHT }}>
+            <div className={styles.clouds} style={{ height: pageHeight }}>
                 {Array.from({ length: tileCount }, (_, tileIndex) =>
                     CLOUD_PATTERN.map((cloud, cloudIndex) => {
                         // size and speed variance per repeat so tiles don't look identical

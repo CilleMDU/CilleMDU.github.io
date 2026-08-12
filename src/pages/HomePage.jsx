@@ -1,10 +1,12 @@
 import { Link } from "react-router";
-import projects from "../data/projects";
+import Hero from "../components/Hero/Hero";
+import Carousel from "../components/Carousel/Carousel";
 
 export default function HomePage() {
     return (
         <div className="home-page">
-            <h1>Welcome to My Portfolio</h1>
+            <Hero />
+            <Carousel />
             </div>
     );
 }
