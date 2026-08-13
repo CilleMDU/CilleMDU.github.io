@@ -4,8 +4,8 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
-import ProjectPage from "./pages/ProjectPage";
-import ProjectsPage from "./pages/ProjectsPage";
+import ProjectPage from "./pages/ProjectPage/ProjectPage";
+import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 

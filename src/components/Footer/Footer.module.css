@@ -2,6 +2,41 @@
     position: relative;
     background-color: var(--color-dark-blue);
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem 1.6rem;
+    box-sizing: border-box;
     z-index: 20;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contactContainer a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.contactContainer a:hover {
+    color: var(--color-dark-yellow);
+}
+
+.logoContainer {
+    flex-shrink: 0;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContainer img {
+    width: 10rem;
+    height: auto;
+    margin: 1.6rem;
 }
