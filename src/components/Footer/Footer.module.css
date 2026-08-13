@@ -2,7 +2,7 @@
     position: relative;
     background-color: var(--color-dark-blue);
     width: 100%;
-    padding: 2rem 1.6rem;
+    padding: 2rem 2.8rem;
     box-sizing: border-box;
     z-index: 20;
 }
@@ -36,7 +36,37 @@
 }
 
 .logoContainer img {
-    width: 10rem;
+    width: 12rem;
     height: auto;
     margin: 1.6rem;
+}
+
+.addressText, .contactText {
+    margin: 0.8rem;
+    margin-left: 0;
+    line-height: 1.5;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.addressTitle, .contactTitle, .socialTitle {
+    font-size: var(--text-title-font-size);
+    font-weight: var(--semi-bold-font-weight);
+    margin-bottom: 0.8rem;
+}
+
+.logoText {
+    font-family: var(--font-family-alice);
+    font-size: var(--secondary-title-font-size);
+    margin-top: 0.8rem;
 }
