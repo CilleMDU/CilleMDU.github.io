@@ -8,3 +8,35 @@
     /* top:-14rem reserves 14rem of empty space below; cancel most of it so only 2.4rem of gap remains */
     margin-bottom: -11.6rem;
 }
+
+.ctaAboutIcon {
+    width: 4.8rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.ctaAbout {
+    position: absolute;
+    top: 65%;
+    left: 74%;
+}
+
+.ctaAbout:hover .ctaAboutIcon {
+    content: url('../../img/clouds/navbarClouds/active/aboutActive.svg');
+}
+
+.ctaProjectsIcon {
+    width: 4.8rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.ctaProjects {
+    position: absolute;
+    top: 50%;
+    left: 84%;
+}
+
+.ctaProjects:hover .ctaProjectsIcon {
+    content: url('../../img/clouds/navbarClouds/active/projectsActive.svg');
+}
