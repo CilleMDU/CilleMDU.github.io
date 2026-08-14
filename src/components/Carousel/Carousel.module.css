@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: row;
   width: max-content;
-  animation: scroll-right 70s linear infinite;
+  animation: scroll-right 120s linear infinite;
 }
 
 .carouselItem {
