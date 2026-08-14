@@ -1,5 +1,4 @@
 import styles from "./ProjectsPage.module.css";
-import Projects from '../../Data/Projects.json';
 import ProjectCards from "../../components/ProjectCards/ProjectCards";
 
 export default function ProjectsPage() {
