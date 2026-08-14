@@ -1,4 +1,8 @@
-.heroContent img{
+.heroContent {
+    position: relative;
+}
+
+.heroImage {
     width: calc(100% + 3.2rem);
     height: auto;
     z-index: 10;
@@ -10,15 +14,16 @@
 }
 
 .ctaAboutIcon {
-    width: 4.8rem;
+    width: 20rem;
     height: auto;
     cursor: pointer;
 }
 
 .ctaAbout {
     position: absolute;
-    top: 65%;
-    left: 74%;
+    top: 55%;
+    left: 70%;
+    z-index: 20;
 }
 
 .ctaAbout:hover .ctaAboutIcon {
@@ -26,15 +31,16 @@
 }
 
 .ctaProjectsIcon {
-    width: 4.8rem;
+    width: 20rem;
     height: auto;
     cursor: pointer;
 }
 
 .ctaProjects {
     position: absolute;
-    top: 50%;
-    left: 84%;
+    top: 20%;
+    left: 80%;
+    z-index: 20;
 }
 
 .ctaProjects:hover .ctaProjectsIcon {

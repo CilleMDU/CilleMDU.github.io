@@ -1,0 +1,12 @@
+.titleImage {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2.8rem;
+}
+
+.titleContainer2025 {
+    margin-top: -4rem;
+}

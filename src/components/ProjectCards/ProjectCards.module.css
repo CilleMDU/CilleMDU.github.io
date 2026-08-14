@@ -1,0 +1,17 @@
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-dark-blue);
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 40rem;
+  margin: 2.4rem;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+
+.projectTitle {
+    font-size: var(--secondary-title-font-size);
+    font-weight: var(--semi-bold-font-weight);
+}

@@ -1,0 +1,8 @@
+.titleImage {
+     width: 50%;
+     height: auto;
+     margin-top: 4rem;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+ }

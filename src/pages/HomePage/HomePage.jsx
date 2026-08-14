@@ -3,6 +3,7 @@ import Hero from "../../components/Hero/Hero";
 import Carousel from "../../components/Carousel/Carousel";
 import styles from "./HomePage.module.css";
 import ProjectCards from "../../components/ProjectCards/ProjectCards";
+import ProjectTitles from "../../img/titles/projects.svg";
 
 export default function HomePage() {
     return (
@@ -13,6 +14,9 @@ export default function HomePage() {
             </div>
             <div className={styles.carouselContainer}>
                 <Carousel />
+            </div>
+            <div className={styles.titleContainer}>
+                <img src={ProjectTitles} alt="Projects" className={styles.titleImage} />
             </div>
             <div className={styles.projectCardsContainer}>
                 <ProjectCards />
