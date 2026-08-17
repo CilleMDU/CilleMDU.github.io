@@ -9,10 +9,11 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.addressContainer}>
-          <h3 className={styles.addressTitle}>Address</h3>
+          <h3 className={styles.addressTitle}>School</h3>
           <p className={styles.addressText}>
-            Stennehøj Allé 28 1<br />
-            Højbjerg 8270<br />
+            Erhvervsakadamiet Aarhus<br />
+            Sønderhøj 30<br />
+            Viby J, 8260<br />
             Denmark
           </p>
         </div>

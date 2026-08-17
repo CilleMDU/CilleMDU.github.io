@@ -16,14 +16,14 @@
 }
 
 .headerLogo img {
-  height: 12rem;
+  height: 8rem;
   width: auto;
   cursor: pointer;
 }
 
 .headerName {
   font-family: var(--font-family-alice);
-  font-size: var(--title-font-size);
+  font-size: var(--header-title-font-size);
   margin-left: 1.6rem;
 }
 

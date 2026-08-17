@@ -9,9 +9,9 @@
 
 .footerContent {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 20rem;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -36,9 +36,8 @@
 }
 
 .logoContainer img {
-    width: 12rem;
+    width: 10rem;
     height: auto;
-    margin: 1.6rem;
 }
 
 .addressText, .contactText {
@@ -67,6 +66,6 @@
 
 .logoText {
     font-family: var(--font-family-alice);
-    font-size: var(--secondary-title-font-size);
+    font-size: var(--text-title-font-size);
     margin-top: 0.8rem;
 }
