@@ -1,6 +1,8 @@
 import { useParams } from "react-router";
 import styles from "./ProjectPage.module.css";
 import projects from '../../Data/projects.json';
+import websiteInactive from '../../img/clouds/linkClouds/website.svg';
+import websiteActive from '../../img/clouds/linkClouds/websiteActive.svg';
 
 export default function ProjectPage() {
   const { slug } = useParams();
@@ -35,21 +37,36 @@ function projectTitleImage(path) {
     <div className={styles.projectPage}>
       <div className={styles.projectContainer}>
         <div className={styles.projectCard}>
-          <img src={projectTitleImage(project["image title"])} alt={project.title} className={styles.projectTitleImage} />
-          <img src={projectImage(project["image rectangle"])} alt={project.title} className={styles.projectImage} />
-          <p className={styles.projectYear}>Year: {project.year}</p>
-          <p className={styles.projectAbout} dangerouslySetInnerHTML={{ __html: project.about }}></p>
-          <div className={styles.projectLinks}>
-            {project["link og"] && (
-              <a href={project["link og"]} target="_blank" rel="noopener noreferrer">
-                Original
-              </a>
-            )}
-            {project["link exam"] && (
-              <a href={project["link exam"]} target="_blank" rel="noopener noreferrer">
-                Exam
-              </a>
-            )}
+          <img
+            src={projectTitleImage(project["image title"])}
+            alt={project.title}
+            className={styles.projectTitleImage}
+          />
+          <img
+            src={projectImage(project["image rectangle"])}
+            alt={project.title}
+            className={styles.projectImage}
+          />
+          <div className={styles.projectText}>
+            <p className={styles.projectYear}>
+              <span className={styles.yearTitle}>Year:</span> {project.year}
+            </p>
+            <div className={styles.projectDescription}>
+              <p className={styles.aboutTitle}>About:</p>
+              <p
+                className={styles.projectAbout}
+                dangerouslySetInnerHTML={{ __html: project.about }}
+              ></p>
+            </div>
+          </div>
+          <div className={styles.projectLink}>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={websiteInactive}
+                alt="Website"
+                className={styles.projectLinkIcon}
+              />
+            </a>
           </div>
         </div>
       </div>

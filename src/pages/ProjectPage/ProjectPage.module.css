@@ -1,0 +1,40 @@
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectLinkIcon:hover {
+     content: url('../../img/clouds/linkClouds/websiteActive.svg');
+ }
+
+ .projectLinkIcon {
+    margin: 2.8rem;
+ }
+
+ .projectTitleImage {
+    width: 50rem;
+    height: auto;
+    margin-bottom: 2.8rem;
+ }
+
+ .projectImage {
+    width: 115rem;
+    height: auto;
+    margin-bottom: 2.8rem;
+ }
+
+ .aboutTitle,
+ .yearTitle {
+    font-weight: var(--semi-bold-font-weight);
+    font-size: var(--text-title-font-size);
+ }
+
+ .projectText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.6rem;
+ }
