@@ -46,3 +46,7 @@
   height: auto;
   object-fit: contain;
 }
+
+.funFactCardFront:hover {
+    content: url('../../img/funFact/funFactActive.svg');
+}

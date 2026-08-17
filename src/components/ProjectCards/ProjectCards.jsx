@@ -26,6 +26,7 @@ export default function ProjectCards({ year }) {
                 <div key={project.id} className={styles.projectCard} onClick={() => handleProjectClick(project.id)}>
                     <img src={projectImage(project["image square"])} alt={project.title} />
                     <h2 className={styles.projectTitle}>{project.title}</h2>
+                    <p className={styles.projectIntro}>{project["short intro"]}</p>
                 </div>
             ))}
         </div>
