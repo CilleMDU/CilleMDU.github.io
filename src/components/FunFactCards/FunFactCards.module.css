@@ -1,0 +1,48 @@
+.funFactCards {
+  width: 100%;
+}
+
+.funFactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.funFactCard {
+  width: 20rem;
+  height: 20rem;
+  cursor: pointer;
+  perspective: 1000px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.funFactCard.flipped {
+  transform: rotateY(180deg);
+}
+
+.funFactCardFront,
+.funFactCardBack {
+  position: absolute;
+  width: 170%;
+  height: 170%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.funFactCardBack {
+  transform: translate(-50%, -50%) rotateY(180deg);
+}
+
+.funFactCardImage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

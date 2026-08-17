@@ -4,7 +4,8 @@
   align-items: center;
   background-color: var(--color-dark-blue);
   border-radius: 1rem;
-  width: 100%;
+  width: 50rem;
+  height: 40rem;
   max-width: 40rem;
   margin: 2.4rem;
   padding: 1.6rem;
@@ -14,4 +15,5 @@
 .projectTitle {
     font-size: var(--secondary-title-font-size);
     font-weight: var(--semi-bold-font-weight);
+    margin:1.6rem;
 }
