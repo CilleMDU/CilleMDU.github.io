@@ -6,3 +6,8 @@
      left: 50%;
      transform: translateX(-50%);
  }
+
+ .projectCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
