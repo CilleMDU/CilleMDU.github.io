@@ -11,3 +11,27 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
+
+.skillsContainer {
+    background-color: var(--color-dark-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40rem;
+    padding: 1.6rem;
+    padding-left: 4rem;
+    border-radius: 2rem;
+    margin: 1.6rem;
+}
+
+.skillsTitle {
+    font-size: var(--secondary-title-font-size);
+    font-weight: var(--semi-bold-font-weight);
+    margin-bottom: 1.6rem;
+}
+
+.skillsList {
+    margin-left: 1.6rem;
+}

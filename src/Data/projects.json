@@ -2,12 +2,78 @@
     {
         "id": 1,
         "title": "Lumina Exam Version",
-        "image square": "../img/projects/LuminaSquare.png",
-        "image rectangle": "../img/projects/LuminaRectangle.png",
-        "image title": "../img/titles/luminaTitle.svg",
+        "imageSquare": "../img/projects/LuminaSquare.png",
+        "imageRectangle": "../img/projects/LuminaRectangle.png",
+        "imageTitle": "../img/titles/luminaTitle.svg",
         "year": 2025,
-        "short intro": "This is the optimized version of the first project ever made in the first semester of 2025. This is the version made for the end of semester exam.",
-        "about": "Lumina was our first project and it was a group project consisting of groups of four people.<br>We were asked to design a landing page for a company named Lumina.<br>The company wanted to sell speakers to young women while also promoting their app.<br>The assignment was simple. Make a landingpage and be sure to not only feature the app but also the colors available and speakers unique features.<br><br> This project has two versions as I personally chose to optimize this page for my 2025 end of semester exam.<br>The original version was made by four students.<br>The exam version was done by myself, using the original as a template",
-        "link": "https://cillemdu.github.io/landing-page-exam/"
+        "shortIntro": "This is the optimized version of the first project ever made in the first semester of 2025. This is the version made for the end of semester exam.",
+        "about": "Lumina was our first project and it was a group project consisting of groups of four people.<br>We were asked to design a landing page for a company named Lumina.<br>The company wanted to sell speakers to young women while also promoting their app.<br>The assignment was simple. Make a landingpage and be sure to not only feature the app but also the colors available and speakers unique features.<br><br> This project has two versions as I personally chose to optimize this page for my 2025 end of semester exam.<br>The original version was made by four students.<br>The exam version was done by myself, using the original as a template. This is the exam version which has both a light mode and a dark mode.",
+        "link": "https://cillemdu.github.io/landing-page-exam/",
+        "process": [
+            {
+                "category": "Research",
+                "brainstorm": "Unlike in the original version, there wasn't a lot of research to do since most of it has been completed in the original version. Therefore I will instead link to the original's research section. What was done was mostly an indepth evaluation of the fall groups for the original version using various models and theories to see what I needed to focus on."
+            },
+            {
+                "category": "Design",
+                "brainstorm": "The brainstorming process began with considering the fall groups for the original design and figuring out how to fix them. Some were simple. Our products didn't have cards, our spacing was too wide, and I had to pick one language. Some were more complex. The sections that already had a great base for a layout had to be updated too but it was not easy to figure out how. I decided that what had to be done was minimizing the usage of words and focus more on pictures and showing not telling the user about the products.",
+                "designing": "When it came to making a design, I started with the original and then went through each section one by one. I looked at each problem in the individual sections and began making changes based on the new knowledge we had acquired over the semester. Since it was an optimization project, I wanted to keep the flow of the original layout, which is why the order of the section remained the same. I also decided that the social proof section was unnecessary and removed it since barely any webshops begin by showing reviews. I wanted the products to be the first encounter for the user, aside from the hero section, due to Hick's Law. In other words, I wanted to minimize the time it took for the user to find the products after entering the page. Other than that, it was all about simplifying the design and making it more visually appealing.",
+                "interaction": "As part of the process, I tested various color palletes which I then proceeded to show to people in the targeted group to get their opinion on which one they liked. After doing that for both the light and dark mode, it was time to begin prototyping.",
+                "prototyping": "Sincee the project is just one page, the prototyping process was quite simple. It was really just about addingn hover effects to buttons and cards and adding the menu bar. Of course, I also made it scrollable and I made both a light version and a dark version of the prototype.",
+                "results": "The final result of the landing page became this. A simple, clean and more appealing design than the original."
+            },
+            {
+                "category": "Coding",
+                "coding": "In the coding process, I made a big mistake as I had misunderstood what the assignment was asking for. I was supposed to look at the original code and optimize it based on what was already made. Instead, I made an entirely new code from scratch. My reason was quite simple. The original code was made by four people with a low level coding skill who each had their own section of the code they had to make without interference from the rest of us. In short, I had no idea how to work with the codes the other students had made. It was too overwhelming so the easiest solution was for me to just make it from the bottom up and then point out the flaws of the original code in my presentation for my exam. As a result,  I was actually able to work quicker and finish without stressing about the deadline.",
+                "bestCode": "The most impressive part of the code was the scrolling animations as they required JS instead of just HTML and CSS. I needed to learn how to use intersection observer and make two of them so that the animations would come in from both the left and the right. It was simple enough once I figured it out and I got to proudly show it off to my teachers during the exam."
+            },
+            {
+                "category": "Room for improvement",
+                "improvements": "If I were to make this project now, I would made used react for one, but I would also have done usability testing to see if the design was intuitive and worked for our targeted group. I would also have replaced the buy button with a product button instead and made the menu into a navbar instead of a menu bar."
+            }
+        ],
+        "imgGallery": [
+            {
+                "category": "Research",
+                "imgBrainstorm": [
+                    "../img/projects/luminaPort/luminaResearch/luminaBrainstorm/luminaOg.png",
+                    "../img/projects/luminaPort/luminaResearch/luminaBrainstorm/luminaOgIssues.png"
+                ]
+            },
+            {
+                "category": "Design",
+                "imgDesign": [
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaDesign.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaRedesign.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaDiscarded.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaComponents.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaFooterHeader.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaHero.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaMenuCta.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaBoxes.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaCards.png"
+                ],
+                "imgIterations": [
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight1.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight2.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight3.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight4.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight5.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight6.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight7.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark1.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark2.png"
+                ],
+                "imgFinal": [
+                    "../img/projects/luminaPort/luminaDesign/luminaFinale/luminaFinale.png",
+                    "../img/projects/luminaPort/luminaDesign/luminaFinale/luminaFinishEval.png"
+                ],
+                "imgPrototyping": [
+                    "../img/projects/luminaPort/luminaDesign//luminaProto.png"
+                ]
+            }
+        ]
     }
 ]

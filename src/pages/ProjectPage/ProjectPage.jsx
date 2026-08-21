@@ -1,27 +1,37 @@
 import { useParams } from "react-router";
 import styles from "./ProjectPage.module.css";
-import projects from '../../Data/projects.json';
-import websiteInactive from '../../img/clouds/linkClouds/website.svg';
-import websiteActive from '../../img/clouds/linkClouds/websiteActive.svg';
+import projects from "../../Data/projects.json";
+import websiteInactive from "../../img/clouds/linkClouds/website.svg";
+import websiteActive from "../../img/clouds/linkClouds/websiteActive.svg";
 
 export default function ProjectPage() {
   const { slug } = useParams();
   const project = projects.find((p) => String(p.id) === slug);
 
-const projectImages = import.meta.glob('../../img/projects/**/*', { eager: true, import: 'default' });
-const projectTitleImages = import.meta.glob('../../img/titles/**/*', { eager: true, import: 'default' });
+  const projectImages = import.meta.glob("../../img/projects/**/*", {
+    eager: true,
+    import: "default",
+  });
+  const projectTitleImages = import.meta.glob("../../img/titles/**/*", {
+    eager: true,
+    import: "default",
+  });
 
-function projectImage(path) {
-  const filename = path.split('/').pop();
-  const match = Object.entries(projectImages).find(([key]) => key.endsWith(filename));
-  return match ? match[1] : path;
-}
+  function projectImage(path) {
+    const filename = path.split("/").pop();
+    const match = Object.entries(projectImages).find(([key]) =>
+      key.endsWith(filename),
+    );
+    return match ? match[1] : path;
+  }
 
-function projectTitleImage(path) {
-  const filename = path.split('/').pop();
-  const match = Object.entries(projectTitleImages).find(([key]) => key.endsWith(filename));
-  return match ? match[1] : path;
-}
+  function projectTitleImage(path) {
+    const filename = path.split("/").pop();
+    const match = Object.entries(projectTitleImages).find(([key]) =>
+      key.endsWith(filename),
+    );
+    return match ? match[1] : path;
+  }
 
   if (!project) {
     return (
@@ -38,12 +48,12 @@ function projectTitleImage(path) {
       <div className={styles.projectContainer}>
         <div className={styles.projectCard}>
           <img
-            src={projectTitleImage(project["image title"])}
+            src={projectTitleImage(project.imageTitle)}
             alt={project.title}
             className={styles.projectTitleImage}
           />
           <img
-            src={projectImage(project["image rectangle"])}
+            src={projectImage(project.imageRectangle)}
             alt={project.title}
             className={styles.projectImage}
           />
