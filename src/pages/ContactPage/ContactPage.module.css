@@ -83,17 +83,49 @@
 .contactFormInput {
     width: 40%;
     height: auto;
-    color: var(--text-color);
+    color: var(--color-text);
     background-color: var(--color-light-yellow);
     border-radius: 0.8rem;
     border: none;
     flex-wrap: wrap;
     font-size: var(--text-font-size);
-    color: var(--text-color);
+    color: var(--color-text);
     padding: 1.6rem;
+    font-family: var(--font-family-playpen-sans);
 }
 
 .contactFormInput:focus {
     outline: none;
-    box-shadow: 0 0 0 0.2rem var(--color-dark-yellow);
+    box-shadow: 0 0 0 0.2rem var(--color-orange);
+}
+
+.contactFormMsg {
+    width: 100%;
+    height: 50rem;
+    color: var(--color-text);
+    background-color: var(--color-light-yellow);
+    border-radius: 0.8rem;
+    border: none;
+    flex-wrap: wrap;
+    font-size: var(--text-font-size);
+    color: var(--color-text);
+    font-family: var(--font-family-playpen-sans);
+    padding: 1.6rem;
+    resize: none;
+}
+
+.contactFormButton {
+    background-color:none;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.contactFormButton img {
+    width: 15rem;
+    height: auto;
+}
+
+.contactFormButton img:hover {
+    content: url('../../img/btns/SendActive.svg');
 }

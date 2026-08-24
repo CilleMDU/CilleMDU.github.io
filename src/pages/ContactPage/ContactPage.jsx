@@ -5,6 +5,7 @@ import contactTitle from "../../img/titles/contactMe.svg";
 import instaLogo from "../../img/footer/insta.svg";
 import linkedinLogo from "../../img/footer/linked.svg";
 import githubLogo from "../../img/footer/github.svg";
+import sendBtn from "../../img/btns/Send.svg";
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
@@ -84,9 +85,9 @@ export default function ContactPage() {
             <label htmlFor="subject" className={styles.contactFormLabel}>Subject:</label>
             <input type="text" id="subject" name="subject" className={styles.contactFormInput} required />
             <label htmlFor="message" className={styles.contactFormLabel}>Message:</label>
-            <textarea id="message" name="message" className={styles.contactFormTextarea} required></textarea>
+            <textarea id="message" name="message" className={styles.contactFormMsg} required></textarea>
             <button type="submit" className={styles.contactFormButton} disabled={status === 'sending'}>
-              {status === 'sending' ? 'Sending...' : 'Send'}
+              {status === 'sending' ? 'Sending...' : <img src={sendBtn} alt="Send" />}
             </button>
             {status === 'success' && (
               <p className={styles.contactFormStatusSuccess}>Message recieved! Sending good vibes back soon!</p>
