@@ -1,0 +1,99 @@
+.titleImage {
+    width: 50rem;
+    height: auto;
+    margin-bottom: 2.4rem;
+}
+
+.contactPageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.8rem;
+}
+
+.contactFormStatusSuccess {
+    color: #2e7d32;
+}
+
+.contactFormStatusError {
+    color: #c62828;
+}
+
+.contactDescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -70rem;
+}
+
+.contactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -110rem;
+    gap: 2.8rem;
+}
+
+.contactInfoClassic {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.8rem;
+}
+
+.socialMediaContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.socialMediaLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.contactFormContainer {
+    background-color: var(--color-dark-blue);
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 1.6rem;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+}
+
+.contactFormTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.contactFormLabel {
+    font-weight: var(--semi-bold-font-weight);
+    font-size: var(--text-title-font-size);
+    margin-bottom: -0.4rem;
+}
+
+.contactFormInput {
+    width: 40%;
+    height: auto;
+    color: var(--text-color);
+    background-color: var(--color-light-yellow);
+    border-radius: 0.8rem;
+    border: none;
+    flex-wrap: wrap;
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+    padding: 1.6rem;
+}
+
+.contactFormInput:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem var(--color-dark-yellow);
+}

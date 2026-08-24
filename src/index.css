@@ -67,3 +67,17 @@ main {
   padding: 1.6rem;
   padding-top: var(--navbar-height, 0px);
 }
+
+h3 {
+  font-size: var(--text-title-font-size);
+  font-weight: var(--semi-bold-font-weight);
+  margin-bottom: 0.8rem;
+  color: var(--color-text);
+}
+
+h2 {
+  font-size: var(--secondary-title-font-size);
+  font-weight: var(--semi-bold-font-weight);
+  margin-bottom: 1.6rem;
+  color: var(--color-text);
+}

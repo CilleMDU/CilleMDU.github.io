@@ -5,7 +5,8 @@ import styles from "./HomePage.module.css";
 import ProjectCards from "../../components/ProjectCards/ProjectCards";
 import ProjectTitles from "../../img/titles/projects.svg";
 import FunFactCards from "../../components/FunFactCards/FunFactCards";
-import ToolboxTitle from "../../img/titles/toolbox.svg";
+import ToolboxTitle from "../../img/titles/toolbox.svg"
+import ToolPlaceholder from "../../img/placeholder/placeholderTool.svg"
 
 export default function HomePage() {
   return (
@@ -53,6 +54,13 @@ export default function HomePage() {
               <li>Responsible</li>
               <li>Reliable</li>
             </ul>
+          </div>
+          <div className={styles.toolImgContainer}>
+            <img
+              src={ToolPlaceholder}
+              alt="Tool Placeholder"
+              className={styles.toolImg}
+            />
           </div>
         </div>
         <div className={styles.funFactCardsContainer}>
