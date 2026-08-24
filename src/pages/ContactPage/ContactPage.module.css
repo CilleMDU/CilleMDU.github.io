@@ -119,10 +119,12 @@
     border: none;
     cursor: pointer;
     background: none;
+    display: flex;
+    align-self: center;
 }
 
 .contactFormButton img {
-    width: 15rem;
+    width: 20rem;
     height: auto;
 }
 
