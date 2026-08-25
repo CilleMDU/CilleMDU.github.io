@@ -23,6 +23,7 @@
 .contactDescriptionContainer {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     text-align: left;
     margin: 1.6rem;
 }
@@ -30,6 +31,7 @@
 .contactInfoContainer {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     text-align: left;
     margin: 1.6rem;
     gap: 2.8rem;
