@@ -114,6 +114,11 @@
     resize: none;
 }
 
+.contactFormMsg:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem var(--color-orange);
+}
+
 .contactFormButton {
     background-color:none;
     border: none;
