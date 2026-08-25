@@ -33,7 +33,7 @@ export default function Footer() {
             <a href="https://github.com/CilleMDU" target="_blank" rel="noopener noreferrer">
               <img src={GitHubIcon} alt="GitHub" className={styles.socialIcon} />
             </a>
-            <a href="https://www.instagram.com/EonsOfHemera/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/EonsOfSunlight/" target="_blank" rel="noopener noreferrer">
               <img src={InstaIcon} alt="Instagram" className={styles.socialIcon} />
             </a>
           </div>

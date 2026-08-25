@@ -68,7 +68,7 @@ export default function ContactPage() {
             <a href="https://github.com/CilleMDU" target="_blank" rel="noopener noreferrer">
               <img src={githubLogo} alt="GitHub" className={styles.socialMediaLogo} />
             </a>
-            <a href="https://www.instagram.com/EonsOfHemera/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/EonsOfSunlight/" target="_blank" rel="noopener noreferrer">
               <img src={instaLogo} alt="Instagram" className={styles.socialMediaLogo} />
             </a>
             </div>
