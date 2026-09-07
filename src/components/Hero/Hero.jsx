@@ -1,9 +1,9 @@
 import styles from './Hero.module.css';
-import image from '../../img/placeholder/placeholderHero.png';
 import ProjectsInactive from '../../img/clouds/navbarClouds/inactive/projects.svg';
 import ProjectsActive from '../../img/clouds/navbarClouds/active/projectsActive.svg';
 import AboutInactive from '../../img/clouds/navbarClouds/inactive/about.svg';
 import AboutActive from '../../img/clouds/navbarClouds/active/aboutActive.svg';
+import image from '../../img/heroImgs/heroImg.svg';
 
 export default function Hero() {
 
