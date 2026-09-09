@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 import CloudsBG from "./components/CloudsBG/CloudsBG";
-import AboutPage from "./pages/AboutPage";
+import AboutPage from "./pages/AboutPage/AboutPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import HomePage from "./pages/HomePage/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import ProcessPage from "./pages/ProcessPage/ProcessPage";
 import ProjectProcess from "./pages/ProcessPage/ProcessPage";
+import ResumePage from "./pages/ResumePage/ResumePage";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
+          <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </main>
 

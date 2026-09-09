@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     gap: 2.8rem;
+    margin: 1.6rem;
 }
 
 .contactFormStatusSuccess {

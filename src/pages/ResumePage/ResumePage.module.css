@@ -1,0 +1,35 @@
+.resumePageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8rem;
+  margin: 1.6rem;
+}
+
+.titleImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.titleImage img {
+  width: 50rem;
+  height: auto;
+  margin-bottom: 2.4rem;
+}
+
+.resumePagePDF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 2.4rem;
+}
+
+.resumePage {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
