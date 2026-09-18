@@ -36,42 +36,42 @@
             {
                 "category": "Research",
                 "imgBrainstorm": [
-                    "../img/projects/luminaPort/luminaResearch/luminaBrainstorm/luminaOg.png",
-                    "../img/projects/luminaPort/luminaResearch/luminaBrainstorm/luminaOgIssues.png"
+                    "../img/projects/luminaPort/luminaResearch/luminaBrainstorm/luminaOg.svg",
+                    "../img/projects/luminaPort/luminaResearch/luminaBrainstorm/luminaOgIssues.svg"
                 ]
             },
             {
                 "category": "Design",
                 "imgDesign": [
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaDesign.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaRedesign.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaDiscarded.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaComponents.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaFooterHeader.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaHero.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaMenuCta.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaBoxes.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaCards.png"
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaDesign.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaRedesign.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaDiscarded.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaComponents.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaFooterHeader.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaHero.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaMenuCta.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaBoxes.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaDesign/luminaCards.svg"
                 ],
                 "imgIterations": [
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight1.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight2.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight3.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight4.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight5.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight6.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight7.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark1.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark2.png"
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight1.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight2.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight3.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight4.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight5.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight6.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaLight7.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark1.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaIterations/luminaDark2.svg"
                 ],
                 "imgFinal": [
-                    "../img/projects/luminaPort/luminaDesign/luminaFinale/luminaFinale.png",
-                    "../img/projects/luminaPort/luminaDesign/luminaFinale/luminaFinishEval.png"
+                    "../img/projects/luminaPort/luminaDesign/luminaFinale/luminaFinale.svg",
+                    "../img/projects/luminaPort/luminaDesign/luminaFinale/luminaFinishEval.svg"
                 ],
                 "imgPrototyping": [
-                    "../img/projects/luminaPort/luminaDesign//luminaProto.png"
+                    "../img/projects/luminaPort/luminaDesign/luminaProto.svg"
                 ]
             }
         ]
