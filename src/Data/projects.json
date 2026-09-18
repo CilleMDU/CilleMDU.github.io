@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "Lumina Exam Version",
-        "imageSquare": "../img/projects/LuminaSquare.png",
-        "imageRectangle": "../img/projects/LuminaRectangle.png",
+        "imageSquare": "../img/projects/LuminaSquare.svg",
+        "imageRectangle": "../img/projects/LuminaRectangle.svg",
         "imageTitle": "../img/titles/luminaTitle.svg",
         "year": 2025,
         "shortIntro": "This is the optimized version of the first project ever made in the first semester of 2025. This is the version made for the end of semester exam.",
