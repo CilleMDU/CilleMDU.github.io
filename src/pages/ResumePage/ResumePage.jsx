@@ -8,6 +8,10 @@ import ResumeTitle from "../../img/titles/AboutMeTitle.svg";
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
+// buffer is rendered above display scale so the page still looks crisp when enlarged
+const RENDER_SCALE = 2;
+const DISPLAY_SCALE = 1.25;
+
 export default function ResumePage() {
   const containerRef = useRef(null);
 
@@ -24,11 +28,13 @@ export default function ResumePage() {
         const page = await pdf.getPage(pageNumber);
         if (cancelled) return;
 
-        const viewport = page.getViewport({ scale: 2 });
+        const viewport = page.getViewport({ scale: RENDER_SCALE });
         const canvas = document.createElement("canvas");
         canvas.className = styles.resumePage;
         canvas.width = viewport.width;
         canvas.height = viewport.height;
+        canvas.style.width = `${(viewport.width / RENDER_SCALE) * DISPLAY_SCALE}px`;
+        canvas.style.height = `${(viewport.height / RENDER_SCALE) * DISPLAY_SCALE}px`;
         container.appendChild(canvas);
 
         await page.render({

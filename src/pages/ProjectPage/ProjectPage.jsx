@@ -26,6 +26,7 @@ export default function ProjectPage() {
   }
 
   function projectTitleImage(path) {
+    if (!path) return null;
     const filename = path.split("/").pop();
     const match = Object.entries(projectTitleImages).find(([key]) =>
       key.endsWith(filename),
@@ -47,11 +48,13 @@ export default function ProjectPage() {
     <div className={styles.projectPage}>
       <div className={styles.projectContainer}>
         <div className={styles.projectCard}>
-          <img
-            src={projectTitleImage(project.imageTitle)}
-            alt={project.title}
-            className={styles.projectTitleImage}
-          />
+          {project.imageTitle && (
+            <img
+              src={projectTitleImage(project.imageTitle)}
+              alt={project.title}
+              className={styles.projectTitleImage}
+            />
+          )}
           <img
             src={projectImage(project.imageRectangle)}
             alt={project.title}

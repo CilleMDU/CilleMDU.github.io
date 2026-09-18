@@ -1,71 +1,78 @@
 .aboutPageContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2.8rem;
-    margin: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8rem;
+  margin: 1.6rem;
 }
 
 .titleImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.4rem;
 }
 
-.titleImage img{
-    width: 50rem;
-    height: auto;
-    margin-bottom: 2.4rem;
+.titleImage img {
+  width: 50rem;
+  height: auto;
+  margin-bottom: 2.4rem;
 }
 
 .aboutTop {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2.4rem;
 }
 
 .aboutMeImage {
-    width: 25%;
-    height: auto;
+  width: 25%;
+  height: auto;
 }
 
 .aboutMeImage img {
-    width: 100%;
-    height: auto;
-    border-radius: 2rem;
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
 }
 
 .textCategory {
-    font-weight: var(--semi-bold-font-weight);
+  font-weight: var(--semi-bold-font-weight);
 }
 
-.infoBoxBtn {
-    background-image: url(../../img/thumbnails/CVThumbnail.png);
-    width: 106rem;
-    height: 23.6rem;
-    background-size: cover;
-    background-position: center;
-    border: none;
-    cursor: pointer;
-    border-radius: 2rem;
+.downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.infoBox {
-    background-color: var(--color-dark-blue);
-    width: 110rem;
-    height: 28.8rem;
-    border-radius: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.downloadsContent {
+  display: flex;
+  justify-content: center;
 }
 
-.infoBoxBtnTitle {
-    font-weight: var(--semi-bold-font-weight);
-    font-size: var(--secondary-title-font-size);
-    color: var(--color-text);
+.resumeLink {
+  text-decoration: none;
+  font-weight: var(--semi-bold-font-weight);
+  font-size: var(--secondary-title-font-size);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-dark-blue);
+  border-radius: 1rem;
+  width: 50rem;
+  height: 46rem;
+  max-width: 40rem;
+  margin: 2.4rem;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+
+.resumeLink:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }

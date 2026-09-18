@@ -75,5 +75,16 @@
                 ]
             }
         ]
+    },
+    {
+      "id": 2,
+      "title": "Uniquely Her",
+      "year": 2026,
+      "imageSquare": "../img/projects/UniquelyHerSquare.svg",
+      "imageRectangle": "../img/projects/UniquelyHerRectangle.svg",
+      "imageTitle": "../img/titles/uniquelyTitle.svg",
+      "shortIntro": "This project was focused on creating a retail website with customer experience being the main focus",
+      "about": "This project was a UCD customer experience design project where my group chose to create a retail website focused on selling athletic and athlesuire clothes to women of all sizes and ages.<br/>The main focus in the project was inclusivity and accessibility. Not only did we try to include models of different shapes and colors, we also tried to take into considerations other types of diversity such as mental and physical handicap. Not only did we create a service for amputees but we also ensured that the website is fully keyboard functional, has aria labels where its needed, and it has a darkmode for people with sensitive eyes.<br/><br/>My specific role in this project was designing the project display page and overseeing all out accessability features. As someone with sensitive eyes and touch sensitivities, I personally created the JSON file so that I could say which items were good for users with touch sensitivties. I also designed the entire darkmode and tested the colors on others with sensitive eyes.",
+      "link": "https://cillemdu.github.io/customer-experience-design-exam/"
     }
 ]
