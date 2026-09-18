@@ -21,14 +21,14 @@ export default function AboutPage() {
           <div className={styles.aboutMeText}>
             <p>
               Wanna know if the girl behind the portfolio is the girl you need
-              for your team? Chek out my resume!
+              for your team? Check out my resume!
               <br />
               Other than my resume, you can also get to see what people have
               said about me in different contexts!
               <br />
               <br />
               I'm looking for a smaller setting with open-minded colleagues and
-              bosses. The company can be big as long as the deparment I'm in is
+              bosses. The company can be big as long as the department I'm in is
               a smaller setting.
               <br />
               As a girl with autism, I might need to work a few days from home
@@ -38,7 +38,10 @@ export default function AboutPage() {
               subjects I'm passionate about. Like coding!
               <br />
               <br />
-              I'm a special girl in many ways and require understanding and support but I can promise you that with my level of dedication and passion, that support and understanding will ensure I deliver work of the highest quality.
+              I'm a special girl in many ways and require understanding and
+              support but I can promise you that with my level of dedication and
+              passion, that support and understanding will ensure I deliver work
+              of the highest quality.
             </p>
           </div>
         </div>
