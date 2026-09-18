@@ -9,6 +9,7 @@
     "shortIntro": "This is the optimized version of the first project ever made in the first semester of 2025. This is the version made for the end of semester exam.",
     "about": "Lumina was our first project and it was a group project consisting of groups of four people.<br>We were asked to design a landing page for a company named Lumina.<br>The company wanted to sell speakers to young women while also promoting their app.<br>The assignment was simple. Make a landing page and be sure to not only feature the app but also the colors available and the speakers' unique features.<br><br> This project has two versions as I personally chose to optimize this page for my 2025 end of semester exam.<br>The original version was made by four students.<br>The exam version was done by myself, using the original as a template. This is the exam version which has both a light mode and a dark mode.",
     "link": "https://cillemdu.github.io/landing-page-exam/",
+    "repository": "https://github.com/CilleMDU/landing-page-exam",
     "process": [
       {
         "category": "Research",
@@ -85,6 +86,7 @@
     "imageTitle": "../img/titles/uniquelyTitle.svg",
     "shortIntro": "This project was focused on creating a retail website with customer experience being the main focus",
     "about": "This project was a UCD customer experience design project where my group chose to create a retail website focused on selling athletic and athleisure clothes to women of all sizes and ages.<br/>The main focus in the project was inclusivity and accessibility. Not only did we try to include models of different shapes and colors, we also tried to take into consideration other types of diversity such as mental and physical handicap. Not only did we create a service for amputees but we also ensured that the website is fully keyboard functional, has aria labels where it's needed, and it has a darkmode for people with sensitive eyes.<br/><br/>My specific role in this project was designing the project display page and overseeing all our accessibility features. As someone with sensitive eyes and touch sensitivities, I personally created the JSON file so that I could say which items were good for users with touch sensitivities. I also designed the entire darkmode and tested the colors on others with sensitive eyes.",
-    "link": "https://cillemdu.github.io/customer-experience-design-exam/"
+    "link": "https://cillemdu.github.io/customer-experience-design-exam/",
+    "repository": "https://github.com/CilleMDU/customer-experience-design-exam"
   }
 ]

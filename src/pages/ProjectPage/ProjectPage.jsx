@@ -2,7 +2,7 @@ import { useParams } from "react-router";
 import styles from "./ProjectPage.module.css";
 import projects from "../../Data/projects.json";
 import websiteInactive from "../../img/clouds/linkClouds/website.svg";
-import websiteActive from "../../img/clouds/linkClouds/websiteActive.svg";
+import repository from "../../img/clouds/linkClouds/repository.svg";
 
 export default function ProjectPage() {
   const { slug } = useParams();
@@ -72,12 +72,19 @@ export default function ProjectPage() {
               ></p>
             </div>
           </div>
-          <div className={styles.projectLink}>
+          <div className={styles.links}>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={websiteInactive}
                 alt="Website"
                 className={styles.projectLinkIcon}
+              />
+            </a>
+            <a href={project.repository} target="_blank" rel="noopener noreferrer">
+              <img
+                src={repository}
+                alt="Repository"
+                className={styles.repoLinkIcon}
               />
             </a>
           </div>

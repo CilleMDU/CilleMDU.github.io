@@ -5,12 +5,25 @@
   justify-content: center;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
 .projectLinkIcon:hover {
   content: url("../../img/clouds/linkClouds/websiteActive.svg");
 }
 
+.repoLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/repositoryActive.svg");
+}
+
+.repoLinkIcon,
 .projectLinkIcon {
   margin: 2.8rem;
+  cursor: pointer;
 }
 
 .projectTitleImage {
