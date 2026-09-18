@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+.projectCard img {
+  border-radius: 1rem;
+}
+
 .projectCard:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;

@@ -1,7 +1,7 @@
 import styles from "./AboutPage.module.css";
 import HeadShot from "../../img/me/headshot.jpg";
 import AboutMeTitle from "../../img/titles/AboutMeTitle.svg";
-import DownloadsTitle from "../../img/titles/downloads.svg";
+import ResumeDownload from "../../img/clouds/linkClouds/resume.svg";
 import CV from "../../PDF/CVEnglish.pdf";
 
 export default function AboutPage() {
@@ -20,36 +20,36 @@ export default function AboutPage() {
           </div>
           <div className={styles.aboutMeText}>
             <p>
-              <span className={styles.textCategory}>Age:</span> 23 <br />
-              <span className={styles.textCategory}>Gender:</span> Female <br />
-              <span className={styles.textCategory}>
-                Pronouns:
-              </span> She/Her <br />
-              <span className={styles.textCategory}>
-                Nationality
-              </span> Danish <br />
-              <span className={styles.textCategory}>Number 1 hobby:</span>{" "}
-              Gaming <br />
-              <span className={styles.textCategory}>Favorite book:</span> Pride
-              and Prejudice <br />
-              <span className={styles.textCategory}>Pet peeve:</span> People who
-              stand and talk in doorways
+              Wanna know if the girl behind the portfolio is the girl you need
+              for your team? Chek out my resume!
+              <br />
+              Other than my resume, you can also get to see what people have
+              said about me in different contexts!
+              <br />
+              <br />
+              I'm looking for a smaller setting with open-minded colleagues and
+              bosses. The company can be big as long as the deparment I'm in is
+              a smaller setting.
+              <br />
+              As a girl with autism, I might need to work a few days from home
+              and be allowed to create my own space by using headphones and
+              other tools. That said! It's also a super power that allows me to
+              notice tiny details and it also allows me to dive deep into
+              subjects I'm passionate about. Like coding!
+              <br />
+              <br />
+              I'm a special girl in many ways and require understanding and support but I can promise you that with my level of dedication and passion, that support and understanding will ensure I deliver work of the highest quality.
             </p>
           </div>
         </div>
-      </div>
-      <div className={styles.downloads}>
-        <div className={styles.titleImage}>
-          <img src={DownloadsTitle} alt="Downloads" />
-        </div>
-        <div className={styles.downloadsContent}>
+        <div className={styles.resume}>
           <a
             href={CV}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.resumeLink}
           >
-            Resume
+            <img src={ResumeDownload} alt="Resume" />
           </a>
         </div>
       </div>
