@@ -28,6 +28,13 @@
   gap: 4rem;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-self: flex-start;
+}
+
 .aboutMeImage {
   width: 25%;
   height: auto;
@@ -39,11 +46,16 @@
   border-radius: 2rem;
 }
 
-.resume:hover {
-    content: url(../../img/clouds/linkClouds/resumeActive.svg);
-    cursor: pointer;
+.resumeLink:hover {
+  content: url(../../img/clouds/linkClouds/resumeActive.svg);
+  cursor: pointer;
 }
 
 .aboutMeText {
-    max-width: 60rem;
+  max-width: 60rem;
+}
+
+.artbookLink:hover {
+  content: url(../../img/clouds/linkClouds/artbookActive.svg);
+  cursor: pointer;
 }

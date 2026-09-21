@@ -3,6 +3,7 @@ import HeadShot from "../../img/me/headshot.jpg";
 import AboutMeTitle from "../../img/titles/AboutMeTitle.svg";
 import ResumeDownload from "../../img/clouds/linkClouds/resume.svg";
 import CV from "../../PDF/CVEnglish.pdf";
+import Artbook from "../../img/clouds/linkClouds/artbook.svg";
 
 export default function AboutPage() {
   return (
@@ -45,7 +46,7 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className={styles.resume}>
+        <div className={styles.links}>
           <a
             href={CV}
             target="_blank"
@@ -53,6 +54,14 @@ export default function AboutPage() {
             className={styles.resumeLink}
           >
             <img src={ResumeDownload} alt="Resume" />
+          </a>
+          <a
+            href="https://www.instagram.com/EonsOfSunlight/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.artbookLink}
+          >
+            <img src={Artbook} alt="Artbook" />
           </a>
         </div>
       </div>
