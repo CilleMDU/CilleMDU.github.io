@@ -88,5 +88,17 @@
     "about": "This project was a UCD customer experience design project where my group chose to create a retail website focused on selling athletic and athleisure clothes to women of all sizes and ages.<br/>The main focus in the project was inclusivity and accessibility. Not only did we try to include models of different shapes and colors, we also tried to take into consideration other types of diversity such as mental and physical handicap. Not only did we create a service for amputees but we also ensured that the website is fully keyboard functional, has aria labels where it's needed, and it has a darkmode for people with sensitive eyes.<br/><br/>My specific role in this project was designing the project display page and overseeing all our accessibility features. As someone with sensitive eyes and touch sensitivities, I personally created the JSON file so that I could say which items were good for users with touch sensitivities. I also designed the entire darkmode and tested the colors on others with sensitive eyes.",
     "link": "https://cillemdu.github.io/customer-experience-design-exam/",
     "repository": "https://github.com/CilleMDU/customer-experience-design-exam"
+  },
+  {
+    "id": 3,
+    "title": "LEGO competition",
+    "year": 2026,
+    "imageSquare": ".../img/projects/LEGOBuildingSquare.svg",
+    "imageRectangle": "../img/projects/LEGOBuildingRectangle.svg",
+    "imageTitle": "../img/titles/LEGOBuilding.svg",
+    "shortIntro": "This group project was an international collaboration with students from Netherlands",
+    "about": "In this project we collaborated with students from the Netherlands to create a short, engaging game. We focused on designing a game where students from both countries could play together.<br/><br/> My role in this project was as the lead programmer with the responsibility of implementing core mechanics such as the JSON, the radomizer, reset and replay functions and the timer.<br/>I also made sure to implement the design itself which was made by the Netherlands team and finished by a danish student in Figma. Sound effects and music was implemented by the third danish student in the team.",
+    "link": "https://cillemdu.github.io/lego-building-game/",
+    "repository": "https://github.com/CilleMDU/lego-building-game"
   }
 ]

@@ -2,9 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2.4rem;
-  max-width: calc(3 * 40rem + 2 * 2.4rem);
+  gap: 3.6rem;
+  max-width: calc(3 * 40rem + 2 * 3.6rem);
   margin: 0 auto;
+  padding: 2.4rem 0;
 }
 
 .projectCard {
@@ -16,7 +17,6 @@
   width: 50rem;
   height: 46rem;
   max-width: 40rem;
-  margin: 2.4rem;
   padding: 1.6rem;
   cursor: pointer;
 }
