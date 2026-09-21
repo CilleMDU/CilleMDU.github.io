@@ -6,7 +6,7 @@
     "imageRectangle": "../img/projects/LuminaRectangle.svg",
     "imageTitle": "../img/titles/luminaTitle.svg",
     "year": 2025,
-    "shortIntro": "This is the optimized version of the first project ever made in the first semester of 2025. This is the version made for the end of semester exam.",
+    "shortIntro": "This is the optimized version of the first project ever made in the first semester of 2025. This is the version made for the end of semester exam",
     "about": "Lumina was our first project and it was a group project consisting of groups of four people.<br>We were asked to design a landing page for a company named Lumina.<br>The company wanted to sell speakers to young women while also promoting their app.<br>The assignment was simple. Make a landing page and be sure to not only feature the app but also the colors available and the speakers' unique features.<br><br> This project has two versions as I personally chose to optimize this page for my 2025 end of semester exam.<br>The original version was made by four students.<br>The exam version was done by myself, using the original as a template. This is the exam version which has both a light mode and a dark mode.",
     "link": "https://cillemdu.github.io/landing-page-exam/",
     "repository": "https://github.com/CilleMDU/landing-page-exam",
@@ -100,5 +100,17 @@
     "about": "In this project we collaborated with students from the Netherlands to create a short, engaging game. We focused on designing a game where students from both countries could play together.<br/><br/> My role in this project was as the lead programmer with the responsibility of implementing core mechanics such as the JSON, the radomizer, reset and replay functions and the timer.<br/>I also made sure to implement the design itself which was made by the Netherlands team and finished by a danish student in Figma. Sound effects and music was implemented by the third danish student in the team.",
     "link": "https://cillemdu.github.io/lego-building-game/",
     "repository": "https://github.com/CilleMDU/lego-building-game"
+  },
+  {
+    "id": 4,
+    "title": "Interactive Aquarium",
+    "year": 2025,
+    "imageSquare": "../img/projects/aquariumSquare.svg",
+    "imageRectangle": "../img/projects/aquariumRectangle.svg",
+    "imageTitle": "../img/titles/aquariumTitle.svg",
+    "shortIntro": "This group project was about creating an interactive learning experience for kids",
+    "about": "In this project, several students were put together to creative an interactive learning experience for children. The project required us to collect data from Storcenter Nord's vistors in the children's area. The area was ocean themed and the project had to fit that theme.<br/><br/>My role was to focus on the landingpage and make sure it was as engaging and interactive as possible. We were each told that we had to design at least one fish and animate it accordingly. The. fish I animated was the black and white fish that turns blue and yellow. I also animated the pufferfish, however, I didn't design that one.<br/><br/>Aside from handling the landingpage I also contributed to other parts of the code by handling errors and funcitons that weren't working as they should.",
+    "link": "https://cillemdu.github.io/akvarie-touch-skaerm/",
+    "repository": "https://github.com/CilleMDU/akvarie-touch-skaerm"
   }
 ]
