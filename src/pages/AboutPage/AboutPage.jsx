@@ -53,7 +53,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             className={styles.resumeLink}
           >
-            <img src={ResumeDownload} alt="Resume" />
+            <img src={ResumeDownload} alt="Resume" className={styles.resumeImg} />
           </a>
           <a
             href="https://www.instagram.com/EonsOfSunlight/"
@@ -61,7 +61,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             className={styles.artbookLink}
           >
-            <img src={Artbook} alt="Artbook" />
+            <img src={Artbook} alt="Artbook" className={styles.artbookImg} />
           </a>
         </div>
       </div>

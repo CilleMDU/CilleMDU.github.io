@@ -47,8 +47,11 @@
 }
 
 .resumeLink:hover {
-  content: url(../../img/clouds/linkClouds/resumeActive.svg);
   cursor: pointer;
+}
+
+.resumeLink:hover .resumeImg {
+  content: url(../../img/clouds/linkClouds/resumeActive.svg);
 }
 
 .aboutMeText {
@@ -56,6 +59,9 @@
 }
 
 .artbookLink:hover {
-  content: url(../../img/clouds/linkClouds/artbookActive.svg);
   cursor: pointer;
+}
+
+.artbookLink:hover .artbookImg {
+  content: url(../../img/clouds/linkClouds/artbookActive.svg);
 }
