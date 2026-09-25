@@ -11,13 +11,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2.4rem;
 }
 
 .titleImage img {
   width: 50rem;
   height: auto;
-  margin-bottom: 2.4rem;
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
 }
 
 .aboutTop {

@@ -1,7 +1,8 @@
 .titleImage {
     width: 50rem;
     height: auto;
-    margin-bottom: 2.4rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
 }
 
 .contactPageContent {
@@ -138,4 +139,15 @@
 
 .contactFormButton img:hover {
     content: url('../../img/btns/SendActive.svg');
+}
+
+.contactInfoEmail a,
+.contactInfoPhone a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.contactInfoEmail a:hover,
+.contactInfoPhone a:hover {
+    color: var(--color-dark-blue);
 }
