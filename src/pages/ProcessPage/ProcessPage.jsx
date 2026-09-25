@@ -7,9 +7,6 @@ export default function ProcessPage() {
   return (
     <div className={styles.processPage}>
       <div className={styles.processPageContent}>
-        <div className={styles.processPageWorkFlow}>
-            <img src={processWorkflow} alt="Process Workflow" className={styles.workFlowImg}/>
-        </div>
         <div className={styles.processPageProjects}>
             <img src={projectTitle} alt="Projects" className={styles.projectsImg}/>
         </div>
