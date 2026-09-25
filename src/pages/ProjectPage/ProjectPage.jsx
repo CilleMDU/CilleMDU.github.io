@@ -1,38 +1,14 @@
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import styles from "./ProjectPage.module.css";
 import projects from "../../Data/projects.json";
 import websiteInactive from "../../img/clouds/linkClouds/website.svg";
 import repository from "../../img/clouds/linkClouds/repository.svg";
+import Process from "../../img/clouds/linkClouds/process.svg";
+import { getProjectImage, getProjectTitleImage } from "../../utils/resolveProjectImage";
 
 export default function ProjectPage() {
   const { slug } = useParams();
   const project = projects.find((p) => String(p.id) === slug);
-
-  const projectImages = import.meta.glob("../../img/projects/**/*", {
-    eager: true,
-    import: "default",
-  });
-  const projectTitleImages = import.meta.glob("../../img/titles/**/*", {
-    eager: true,
-    import: "default",
-  });
-
-  function projectImage(path) {
-    const filename = path.split("/").pop();
-    const match = Object.entries(projectImages).find(([key]) =>
-      key.endsWith(filename),
-    );
-    return match ? match[1] : path;
-  }
-
-  function projectTitleImage(path) {
-    if (!path) return null;
-    const filename = path.split("/").pop();
-    const match = Object.entries(projectTitleImages).find(([key]) =>
-      key.endsWith(filename),
-    );
-    return match ? match[1] : path;
-  }
 
   if (!project) {
     return (
@@ -50,13 +26,13 @@ export default function ProjectPage() {
         <div className={styles.projectCard}>
           {project.imageTitle && (
             <img
-              src={projectTitleImage(project.imageTitle)}
+              src={getProjectTitleImage(project.imageTitle)}
               alt={project.title}
               className={styles.projectTitleImage}
             />
           )}
           <img
-            src={projectImage(project.imageRectangle)}
+            src={getProjectImage(project.imageRectangle)}
             alt={project.title}
             className={styles.projectImage}
           />
@@ -87,6 +63,13 @@ export default function ProjectPage() {
                 className={styles.repoLinkIcon}
               />
             </a>
+            <Link to={`/process/${project.id}`}>
+              <img
+                src={Process}
+                alt="Process"
+                className={styles.processLinkIcon}
+              />
+            </Link>
           </div>
         </div>
       </div>

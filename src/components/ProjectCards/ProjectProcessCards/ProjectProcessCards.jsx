@@ -1,20 +1,6 @@
 import styles from "./ProjectProcessCards.module.css";
 import Projects from "../../../Data/projects.json";
-
-// JSON can't use ES imports, so resolve the "image square" path against Vite's
-// bundled project images (raw relative path strings aren't processed by Vite).
-const projectImages = import.meta.glob("../../../img/projects/**/*", {
-  eager: true,
-  import: "default",
-});
-
-function projectImage(path) {
-  const filename = path.split("/").pop();
-  const match = Object.entries(projectImages).find(([key]) =>
-    key.endsWith(filename),
-  );
-  return match ? match[1] : path;
-}
+import { getProjectImage } from "../../../utils/resolveProjectImage";
 
 export default function ProjectCards({ year }) {
   const handleProjectClick = (projectId) => {
@@ -32,7 +18,7 @@ export default function ProjectCards({ year }) {
           className={styles.projectCard}
           onClick={() => handleProjectClick(project.id)}
         >
-          <img src={projectImage(project.imageSquare)} alt={project.title} />
+          <img src={getProjectImage(project.imageSquare)} alt={project.title} />
           <h2 className={styles.projectTitle}>{project.title}</h2>
           <p className={styles.projectIntro}>{project.shortIntro}</p>
         </div>

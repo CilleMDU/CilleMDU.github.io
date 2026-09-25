@@ -15,13 +15,17 @@
 .projectLinkIcon:hover {
   content: url("../../img/clouds/linkClouds/websiteActive.svg");
 }
+.processLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/processActive.svg");
+}
 
 .repoLinkIcon:hover {
   content: url("../../img/clouds/linkClouds/repositoryActive.svg");
 }
 
 .repoLinkIcon,
-.projectLinkIcon {
+.projectLinkIcon,
+.processLinkIcon {
   margin: 2.8rem;
   cursor: pointer;
 }
