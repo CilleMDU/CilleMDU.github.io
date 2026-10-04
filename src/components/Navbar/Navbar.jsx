@@ -64,7 +64,8 @@ export default function Navbar() {
             <img src={Logo} alt="CilleMDU logo" onClick={handleHomeClick} />
           </div>
           <div className={styles.headerName}>
-            <h1>Cecilie Schmidt</h1>
+            <h1 className={styles.headerNameTitle}>Cecilie Schmidt</h1>
+            <p className={styles.headerNameSubtitle}>Multimedia designer - Frontend Developer - UI/UX Enthusiast</p>
           </div>
           <div className={styles.headerIcons}>
             <div className={styles.darkMode}>

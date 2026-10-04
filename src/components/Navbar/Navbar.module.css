@@ -25,6 +25,17 @@
   font-family: var(--font-family-alice);
   font-size: var(--header-title-font-size);
   margin-left: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerNameSubtitle {
+  font-family: var(--font-family-playpen-sans);
+  font-size: var(--text-title-font-size);
+  margin-top: -0.8rem;
+  margin-bottom: 1.6rem;
 }
 
 .headerIcons {
