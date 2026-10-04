@@ -19,12 +19,6 @@ export default function Hero() {
         <section className={styles.hero}>
             <div className={styles.heroContent}>
                 <img src={image} alt="Hero" className={styles.heroImage} />
-                <div className={styles.ctaAbout}>
-                    <img src={AboutInactive} alt="About" className={styles.ctaAboutIcon} onClick={handleAboutPageClick} />
-                </div>
-                <div className={styles.ctaProjects}>
-                    <img src={ProjectsInactive} alt="Projects" className={styles.ctaProjectsIcon} onClick={handleProjectsPageClick} />
-                </div>
             </div>
         </section>
     );

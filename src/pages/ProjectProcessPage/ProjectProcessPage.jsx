@@ -1,7 +1,7 @@
 import styles from './ProjectProcessPage.module.css';
 import projects from "../../Data/projects.json";
 import { Link, useParams } from "react-router";
-import { getProjectImage, getProjectTitleImage } from "../../utils/resolveProjectImage";
+import { getProjectTitleImage } from "../../utils/resolveProjectImage";
 import Coding from "../../img/thumbnails/Coding.svg";
 import Designing from "../../img/thumbnails/Designing.svg";
 import Researching from "../../img/thumbnails/Researching.svg";
@@ -13,7 +13,6 @@ const ProjectProcessPage = () => {
     if (!project) {
         return <div>Project not found</div>;
     }
-
     return (
         <div className={styles.projectProcessPage}>
             <div className={styles.projectProcessContent}>
@@ -21,10 +20,6 @@ const ProjectProcessPage = () => {
                     <img src={getProjectTitleImage(project.imageTitle)} alt={project.title} />
                 </div>
                 <nav className={styles.projectProcessNav}>
-                    <Link to={`/projects/${project.id}`} className={styles.processCard}>
-                        <img src={getProjectImage(project.imageSquare)} alt={project.title} />
-                        <p className={styles.processCardLabel}>View Project</p>
-                    </Link>
                     <Link to={`/process/${project.id}/research`} className={styles.processCard}>
                         <img src={Researching} alt="Research" />
                         <p className={styles.processCardLabel}>Research</p>

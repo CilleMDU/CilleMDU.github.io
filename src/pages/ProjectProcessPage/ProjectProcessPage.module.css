@@ -15,16 +15,16 @@
   text-decoration: none;
   background-color: var(--color-dark-blue);
   border-radius: 1rem;
-  flex: 1 1 22rem;
-  min-width: 20rem;
-  height: 32rem;
-  padding: 1.6rem;
+  flex: 1 1 28rem;
+  min-width: 24rem;
+  height: 44rem;
+  padding: 2rem;
   cursor: pointer;
 }
 
 .processCard img {
   width: 100%;
-  height: 20rem;
+  height: 30rem;
   object-fit: cover;
   border-radius: 1rem;
 }

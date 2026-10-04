@@ -8,7 +8,7 @@
     z-index: 10;
     position: relative;
     left: -1.6rem;
-    top: -14rem;
+    top: -16rem;
     /* top:-14rem reserves 14rem of empty space below; cancel most of it so only 2.4rem of gap remains */
     margin-bottom: -11.6rem;
 }
@@ -21,8 +21,8 @@
 
 .ctaAbout {
     position: absolute;
-    top: 55%;
-    left: 70%;
+    top: 65%;
+    left: 10%;
     z-index: 20;
 }
 
@@ -38,8 +38,8 @@
 
 .ctaProjects {
     position: absolute;
-    top: 20%;
-    left: 80%;
+    top: 65%;
+    left: 75%;
     z-index: 20;
 }
 

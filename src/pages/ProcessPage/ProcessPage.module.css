@@ -22,3 +22,11 @@
 .processPageProjectCards {
   width: 100%;
 }
+
+.processPageInformation {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.8rem;
+  font-size: var(--text-title-font-size);
+  font-weight: var(--semi-bold-font-weight);
+}
