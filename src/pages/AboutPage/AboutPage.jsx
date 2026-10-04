@@ -2,7 +2,7 @@ import styles from "./AboutPage.module.css";
 import HeadShot from "../../img/me/headshot.jpg";
 import AboutMeTitle from "../../img/titles/AboutMeTitle.svg";
 import ResumeDownload from "../../img/clouds/linkClouds/resume.svg";
-import CV from "../../PDF/CVEnglish - Full.pdf";
+import CV from "../../PDF/CVEnglish - full.pdf";
 import Artbook from "../../img/clouds/linkClouds/artbook.svg";
 
 export default function AboutPage() {
