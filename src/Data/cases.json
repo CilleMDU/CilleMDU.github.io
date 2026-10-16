@@ -10,7 +10,7 @@
         "duration": "2 weeks",
         "year": "2026",
         "group": "Solo Project",
-        "shortIntro": "Cleaning up and optimizing code and design for a local culture and event platform.",
+        "shortIntro": "Optimizing code and design for a local culture and event platform.",
         "about": "Mellemrum was a case given to us about a fictional site that mimicked a quickly made protoype with inconsistent user experience and a hastily made code that's hard to continue to develop. We were to clean up the code so it was easier to further develop and tighten the user flow and interactions.<br/><br/>Mellemrum itself was given this description: A local culture and event platform where users can find and sign up for talks, workshops, and other events. The primary target audience are people interested in local culture and events with the secondary being the people hosting these events.",
         "solution": [
             {
@@ -26,7 +26,7 @@
             {
                 "category": "Afterthought",
                 "title": "Reflections",
-                "description": "My solution makes the website more usable and the code easier to navigate, but there are parts that could be improved.<br/>If I were to go back I would take my code to a different developer to simulate a handover. Another thing I would do would be updating the design. The light green clashes with the background which is irritating for the eyes, the font used for the event titles look odd due to there being too much spacing, and the content itself is bare minimum. I would also add a proper signup page for the events and just take time to fix the userflow. In the end I did what I deemed most important for the case itself and that I had time for.<br/><br/>I believe that if the site was properly redesigned it could be useful for a lot of young adults who might have just moved to a bigger city. According to statistics, young adults are the most likely to be moving around and since moving means starting over, a website like this could indeed help these young adults become more integrated into the local community."
+                "description": "My solution makes the website more usable and the code easier to navigate, but there are parts that could be improved.<br/>If I were to go back I would take my code to a different developer to simulate a handover. Another thing I would do would be updating the design. The light green clashes with the background which is irritating for the eyes, the font used for the event titles look odd due to there being too much spacing, and the content itself is bare minimum. I would also add a proper signup page for the events and just take time to fix the userflow. In the end I did what I deemed most important for the case itself and that I had time for.<br/><br/>I believe that if the site was properly redesigned it could be useful for a lot of young adults who might have just moved to a bigger city. According to statistics, young adults are the most likely to be moving around and since moving means starting over, a website like this could indeed help these young adults become more integrated into the local community. This will especially benefit and be used by young adults who have trouble finding reasons to go out and for hosts to reach their target audience effectively."
             }
         ],
         "imageGallery": [
@@ -82,18 +82,18 @@
         "imageSquare": "../img/projects/vuuhSquare.svg",
         "imageLandscape": "../img/projects/vuuhRectangle.svg",
         "researchLink": "https://www.figma.com/board/VMxOp4hi52KKWNuMHrTFIX/Vuuh-observations?node-id=0-1&t=O1RyZg3LKJU9rpzy-1",
-        "figmaLink": "https://www.figma.com/design/gyLtcPLHRLcjOeT8V9AzDI/vuuh---designfil?node-id=0-1&t=4GOs0HhI6ElV8IoM-1",
+        "figmaLink": "https://www.figma.com/design/gyLtcPLHRLcjOeT8V9AzDI/vuuh---designfil?node-id=71-21&t=idEJPnlETSZKlbsj-1",
         "prototypeLink": "https://www.figma.com/proto/gyLtcPLHRLcjOeT8V9AzDI/vuuh---designfil?node-id=107-26&p=f&viewport=342%2C237%2C0.03&t=4hpbP3eIZur7ej6k-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=107%3A26&page-id=87%3A21",
         "duration": "2 weeks",
         "year": "2026",
         "group": "Team of 3",
         "shortIntro": "Improving the user experience for a Shopify extension.",
-        "about": "We worked with Vuuh, a Shopify extension that helps retailers stay organized and connect to other brands. They gave us their prototype and wanted to make the app more user-friendly for those who aren't native.<br/><br/>We were to use Heuristic Evaluation and Cognitive Walkthrough to update the user side of the site, which is what the user sees when using the extension.<br/></br>For the solution, I will be focusing on explaining the parts I made due to this being a group assignment.",
+        "about": "We worked with Vuuh, a Shopify extension. They gave us their prototype and wanted to make the app more user-friendly for those who aren't native.<br/><br/>We were to use Heuristic Evaluation and Cognitive Walkthrough to update the user side of the site, which is what the user sees when using the extension.<br/></br>For the solution, I will be focusing on explaining the parts I made due to this being a group assignment.",
         "solution": [
             {
                 "category": "Research",
                 "title": "Initial review",
-                "description": "Doing the initial review through the eyes of new users was easy since none of us had used Shopify or Vuuh before. The second we opened the prototype we had no idea what anything was. Even the Shopify integration, which should have been easy, confused us.<br/><br/>We had a lot of material for our finding cards but narrowed it down to four focus points.<br/><br/>We deep dived into various flows to identify Heuristic issues and how to fix them. We also created a user to make tasks for. All of that can be found in the linked FigJam file"
+                "description": "Doing the initial review through the eyes of new users was easy since none of us had used Shopify or Vuuh before. The second we opened the prototype we had no idea what anything was. Even the Shopify integration, which should have been easy, confused us.<br/><br/>We had a lot of material for our finding cards but narrowed it down to four focus points.<br/><br/>We deep dived into various flows to identify Heuristic issues and how to fix them. We also created a user to make tasks for. All of that can be found in the linked research file"
             },
             {
                 "category": "Optimization",
@@ -103,7 +103,7 @@
             {
                 "category":"Afterthought",
                 "title": "Reflections",
-                "description": "We managed to simplify the entire process quite a bit, but there are still parts that I think could have been optimized as well. For an example, I would like to add the little explanation on the side of the modal that the original had which explains what connecting to Shopify could do for the user's webshop. Another thing I would do would be to make more tutorials to appear for first time users when they enter a new page. The other pages like brands and output could probably also benefit from a bit more attention but overall, I think we managed to help clean up Vuuh's initial flow.<br/><br/>I believe with a bit more work, Vuuh could be very beneficial for Shopify users, especially those who also have a physical retail store and need some help getting properly set up with their webshop."
+                "description": "We managed to simplify the entire process quite a bit, but there are still parts that I think could have been optimized as well. For an example, I would like to add the little explanation on the side of the modal that the original had which explains what connecting to Shopify could do for the user's webshop. Another thing I would do would be to make more tutorials to appear for first time users when they enter a new page. The other pages like brands and output could probably also benefit from a bit more attention but overall, I think we managed to help clean up Vuuh's initial flow.<br/><br/>I believe with a bit more work, Vuuh could be very beneficial for Shopify users, especially those who also have a physical retail store and need some help getting properly set up with their webshop. The easier Vuuh is to use, the more likely users are to adopt it and benefit from its features."
             }
         ],
         "imageGallery": [
@@ -148,13 +148,13 @@
         "titleImg": "../img/titles/LaRougeTitle.svg",
         "imageSquare": "../img/projects/HeritageSquare.svg",
         "imageRectangle": "../img/projects/HeritageRectangle.svg",
-        "figmaLink": "https://www.figma.com/design/2bQlhqwMLnF2UnpVcmpyxg/La-Rouge-Heritage?node-id=0-1&t=fIEdDezoP01A4WkG-1",
+        "figmaLink": "https://www.figma.com/design/2bQlhqwMLnF2UnpVcmpyxg/La-Rouge-Heritage?node-id=211-1206&t=xmr5tV4dBRtmnFM2-1",
         "prototypeLink": "https://www.figma.com/proto/2bQlhqwMLnF2UnpVcmpyxg/La-Rouge-Heritage?node-id=195-204&p=f&viewport=288%2C28%2C0.05&t=KrWzcWH1rFGaUGdt-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=195%3A204&page-id=195%3A203",
         "duration": "2 weeks",
         "year": "2026",
         "group":"Team of 3",
-        "shortIntro": "Creating a sub-brand for La Rouge focused on re-commerce.",
-        "about": "We had the opportunity to work with La Rouge, a Danish fashion brand created by Malene Bundgaard Lassen in 2020 which focuses on self-love and women being as they are. For this case, we were asked to create and design the concept for a sub-brand that focuses on re-commerce, meaning thrifting of their own clothes. It was important that the subbrand had its own style and voice while maintaining a clear connection to La Rouge. They were also aiming for potentially bringing in a new demographic with their subbrand.<br/><br/>For the solution, I will be focusing on explaining the parts I made due to this being a group assignment.",
+        "shortIntro": "Creating a sub-brand focused on re-commerce.",
+        "about": "We had the opportunity to work with La Rouge, a Danish fashion brand. For this case, we were asked to create and design the concept for a sub-brand that focuses on re-commerce, meaning thrifting of their own clothes. It was important that the subbrand had its own style and voice while maintaining a clear connection to La Rouge. They were also aiming for potentially bringing in a new demographic with their subbrand.<br/><br/>For the solution, I will be focusing on explaining the parts I made due to this being a group assignment.",
         "solution": [
             {
                 "category": "Research",
@@ -169,7 +169,7 @@
             {
                 "category":"Afterthought",
                 "title": "Reflections",
-                "description": "While we managed to fulfill La Rouge's recommerce mission, there are a lot of areas we could continue to work on with this subbrand. We definitely want to play a bit more with the design of the buttons and whatnot to make them fit this lipstick graffiti theme we have going on. Another thing we wanted was to add the ability to browse the orders of the original buyer in case the person returning it is not the one who bought the clothes first. Obviously, this would require finding a solution that is highly secure so no one can just put in an email and find information on someone else. The last big thing that I wanted us to have done was to make a return process on the La Rouge site which is targeted towards the older women. While I think our process is quick and easy, we have to keep in mind that some of these older women might not be native users like most young women are likely to be.<br/><br/>That said, I do believe we’ve managed to create an interesting subbrand that challenges the culture of perfection and could be interesting for young fashionistas to explore, especially if their moms already shop on La Rouge."
+                "description": "While we managed to fulfill La Rouge's recommerce mission, there are a lot of areas we could continue to work on with this subbrand. We definitely want to play a bit more with the design of the buttons and whatnot to make them fit this lipstick graffiti theme we have going on. Another thing we wanted was to add the ability to browse the orders of the original buyer in case the person returning it is not the one who bought the clothes first. Obviously, this would require finding a solution that is highly secure so no one can just put in an email and find information on someone else. The last big thing that I wanted us to have done was to make a return process on the La Rouge site which is targeted towards the older women. While I think our process is quick and easy, we have to keep in mind that some of these older women might not be native users like most young women are likely to be.<br/><br/>That said, I do believe we've managed to create an interesting subbrand that challenges the culture of perfection and could be interesting for young fashionistas to explore, especially if their moms already shop on La Rouge. This would end up benefitting young women on a budget and older women who wants to buy more on La Rouge without sacrificing closet space. It would also put La Rouge on the radar of a younger demographic and expand their business."
             }
         ],
         "imageGallery": [

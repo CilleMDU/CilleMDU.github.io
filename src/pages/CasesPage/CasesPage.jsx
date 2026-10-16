@@ -8,9 +8,6 @@ export default function CasesPage() {
       <h2 className={styles.casesHeading} id="cases-heading">
         <img src={casesTitle} alt="Cases" />
       </h2>
-      <p className={styles.casesInformation}>
-        Explore the cases I have worked on and the solutions I developed.
-      </p>
       <CasesCards />
     </section>
   );

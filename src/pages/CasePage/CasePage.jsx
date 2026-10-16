@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router";
 import styles from "../ProjectProcessPage/ProjectProcessPage.module.css";
+import caseStyles from "./CasePage.module.css";
 import { getProjectTitleImage } from "../../utils/resolveProjectImage";
 import { findCase } from "../../utils/caseHelpers";
 import Researching from "../../img/thumbnails/Researching.svg";
@@ -19,6 +20,11 @@ const CasePage = () => {
       <div className={styles.projectProcessContent}>
         <div className={styles.titleImage}>
           <img src={getProjectTitleImage(caseItem.titleImg)} alt={caseItem.title} />
+        </div>
+        <div className={caseStyles.caseDetails}>
+          <p><span className={caseStyles.detailLabel}>Year:</span> {caseItem.year}</p>
+          <p><span className={caseStyles.detailLabel}>Duration:</span> {caseItem.duration}</p>
+          <p><span className={caseStyles.detailLabel}>Group:</span> {caseItem.group}</p>
         </div>
         <div className={styles.projectProcessDescription}>
           <p dangerouslySetInnerHTML={{ __html: caseItem.about }}></p>

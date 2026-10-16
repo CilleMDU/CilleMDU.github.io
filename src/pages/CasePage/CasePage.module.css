@@ -1,0 +1,16 @@
+.caseDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6rem 4.8rem;
+  margin: 1.6rem 2.4rem;
+  font-size: var(--text-title-font-size);
+}
+
+.caseDetails p {
+  margin: 0;
+}
+
+.detailLabel {
+  font-weight: var(--semi-bold-font-weight);
+}

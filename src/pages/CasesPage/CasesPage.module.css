@@ -4,7 +4,7 @@
 }
 
 .casesHeading {
-  margin: 0;
+  margin: 0 0 2.8rem;
 }
 
 .casesHeading img {
@@ -13,11 +13,4 @@
   max-width: 100%;
   height: auto;
   margin: -1.2rem auto 0;
-}
-
-.casesInformation {
-  margin-top: 2.8rem;
-  font-size: var(--text-title-font-size);
-  font-weight: var(--semi-bold-font-weight);
-  text-align: center;
 }
