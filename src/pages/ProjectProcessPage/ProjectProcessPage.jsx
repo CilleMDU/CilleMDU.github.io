@@ -19,6 +19,12 @@ const ProjectProcessPage = () => {
                 <div className={styles.titleImage}>
                     <img src={getProjectTitleImage(project.imageTitle)} alt={project.title} />
                 </div>
+                <div className={styles.projectProcessDescription}>
+                    <p
+                    className={styles.projectAbout}
+                    dangerouslySetInnerHTML={{ __html: project.about }}
+              ></p>
+                </div>
                 <nav className={styles.projectProcessNav}>
                     <Link to={`/process/${project.id}/research`} className={styles.processCard}>
                         <img src={Researching} alt="Research" />

@@ -1,0 +1,174 @@
+.categoryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleImage {
+  width: 50rem;
+  max-width: 100%;
+  height: auto;
+  margin-top: -1.2rem;
+  margin-bottom: 2.8rem;
+}
+
+.rectangleImage {
+  width: 115rem;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2.8rem;
+  border-radius: 2rem;
+}
+
+.categoryTitle {
+  font-weight: var(--semi-bold-font-weight);
+  font-size: var(--secondary-title-font-size);
+}
+
+.textLabel {
+  font-weight: var(--semi-bold-font-weight);
+  font-size: var(--text-title-font-size);
+}
+
+.categoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.6rem;
+  width: 115rem;
+  max-width: 100%;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.metaLine {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+  margin-top: 2.8rem;
+}
+
+.caseLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/caseActive.svg");
+}
+
+.websiteLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/websiteActive.svg");
+}
+
+.repoLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/repositoryActive.svg");
+}
+
+.researchLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/researchActive.svg");
+}
+
+.figmaLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/figmaActive.svg");
+}
+
+.prototypeLinkIcon:hover {
+  content: url("../../img/clouds/linkClouds/prototypeActive.svg");
+}
+
+.caseLinkIcon,
+.websiteLinkIcon,
+.repoLinkIcon,
+.researchLinkIcon,
+.figmaLinkIcon,
+.prototypeLinkIcon {
+  cursor: pointer;
+  margin: 2.8rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 115rem;
+  max-width: 100%;
+  margin-bottom: 2.8rem;
+}
+
+.galleryRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  width: 100%;
+  padding: 1.6rem;
+  background-color: var(--color-dark-blue);
+  border-radius: 2rem;
+}
+
+/* Fixed frame so the gallery never resizes between slides. The height fits the
+   widest screenshots (about 1.6:1) at full width; taller images scale down to fit. */
+.galleryMedia {
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.6rem;
+  height: 65rem;
+  min-width: 0;
+}
+
+.galleryFigure {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+}
+
+.galleryFigure img {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  object-fit: contain;
+}
+
+.galleryFigure figcaption {
+  margin-top: 0.8rem;
+  text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+  .galleryMedia {
+    height: 40rem;
+  }
+}
+
+.galleryNav {
+  flex: 0 0 auto;
+  background: none;
+  border: none;
+  font-size: 5rem;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.galleryNav:disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+
+.galleryCount {
+  text-align: center;
+  margin-top: 0.4rem;
+}

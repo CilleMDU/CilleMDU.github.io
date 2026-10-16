@@ -7,13 +7,22 @@ const projectTitleImages = import.meta.glob("../img/titles/**/*", {
   eager: true,
   import: "default",
 });
+const caseImages = import.meta.glob("../img/cases/**/*", {
+  eager: true,
+  import: "default",
+});
 
 function resolve(images, path) {
   if (!path) return null;
-  const filename = path.split("/").pop();
-  const match = Object.entries(images).find(([key]) => key.endsWith(filename));
+  const entries = Object.entries(images);
+  const fullPath = path.toLowerCase();
+  const filename = fullPath.split("/").pop();
+  const match =
+    entries.find(([key]) => key.toLowerCase() === fullPath) ??
+    entries.find(([key]) => key.toLowerCase().split("/").pop() === filename);
   return match ? match[1] : path;
 }
 
 export const getProjectImage = (path) => resolve(projectImages, path);
 export const getProjectTitleImage = (path) => resolve(projectTitleImages, path);
+export const getCaseImage = (path) => resolve(caseImages, path);

@@ -65,7 +65,7 @@ export default function Navbar() {
           </div>
           <div className={styles.headerName}>
             <h1 className={styles.headerNameTitle}>Cecilie Schmidt</h1>
-            <p className={styles.headerNameSubtitle}>Multimedia designer - Frontend Developer - UI/UX Enthusiast</p>
+            <p className={styles.headerNameSubtitle}>Multimedia designer - Frontend developer - Coding lover</p>
           </div>
           <div className={styles.headerIcons}>
             <div className={styles.darkMode}>

@@ -1,6 +1,7 @@
 import styles from './ProcessPage.module.css';
 import projectTitle from '../../img/titles/projects.svg';
 import ProjectProcessCards from '../../components/ProjectCards/ProjectProcessCards/ProjectProcessCards';
+import CasesPage from '../CasesPage/CasesPage';
 
 export default function ProcessPage() {
   return (
@@ -16,6 +17,7 @@ export default function ProcessPage() {
         <div className={styles.processPageProjectCards}>
             <ProjectProcessCards />
         </div>
+        <CasesPage />
       </div>
     </div>
   );
